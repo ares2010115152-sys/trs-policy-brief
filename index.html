@@ -2,781 +2,128 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f2f4f">
-  <meta name="description" content="券商暂停股票类跨境 TRS 新增政策解读：对私募客户的影响、替代路径与 FOF 投顾建议。">
-  <title>跨境TRS暂停政策解读 | 对私募客户的影响与应对建议</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="AI 科技行情周期仪表盘：CAPEX、泡沫类比与中国 AI 产业链二阶动量。">
+  <meta property="og:title" content="AI 科技周期仪表盘">
+  <meta property="og:description" content="CAPEX × 泡沫类比 × AI产业链">
+  <meta property="og:image" content="assets/og.png">
+  <title>AI 科技周期仪表盘</title>
   <style>
-:root {
-  color-scheme: light;
-  --ink: #111827;
-  --muted: #5b6575;
-  --soft: #f5f7fb;
-  --line: #dbe3ee;
-  --panel: #ffffff;
-  --navy: #0f2f4f;
-  --blue: #2563eb;
-  --blue-soft: #eaf2ff;
-  --amber: #d9901f;
-  --red: #c92a2a;
-  --orange: #c56b11;
-  --green: #138a42;
-  --shadow: 0 18px 45px rgba(15, 47, 79, 0.12);
-}
-
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  color: var(--ink);
-  background: #f7f9fc;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-  line-height: 1.72;
-  text-rendering: optimizeLegibility;
-}
-
-a { color: inherit; }
-.container {
-  width: min(100% - 32px, 1040px);
-  margin: 0 auto;
-}
-
-.cover {
-  min-height: 72svh;
-  display: grid;
-  align-content: end;
-  padding: 86px max(22px, env(safe-area-inset-left)) 58px;
-  color: #fff;
-  text-align: left;
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
-  background:
-    linear-gradient(90deg, rgba(6, 21, 38, 0.92) 0%, rgba(10, 31, 56, 0.75) 42%, rgba(10, 31, 56, 0.18) 100%),
-    url("assets/hero.png") center / cover no-repeat;
-}
-.cover::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0;
-  height: 120px;
-  background: linear-gradient(transparent, #f7f9fc);
-  z-index: -1;
-}
-.cover h1,
-.cover h2,
-.cover .subtitle,
-.cover .meta,
-.cover .divider {
-  width: min(100%, 980px);
-  margin-left: auto;
-  margin-right: auto;
-}
-.cover h1 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: clamp(34px, 7vw, 74px);
-  line-height: 1.04;
-  letter-spacing: 0;
-  font-weight: 850;
-}
-.cover h2 {
-  margin-top: 0;
-  margin-bottom: 18px;
-  font-size: clamp(22px, 4vw, 42px);
-  line-height: 1.16;
-  font-weight: 720;
-}
-.cover .divider {
-  width: min(86px, 24vw);
-  height: 4px;
-  margin: 22px auto 22px calc((100% - min(100%, 980px)) / 2);
-  border-radius: 999px;
-  background: var(--amber);
-}
-.cover .subtitle {
-  margin-bottom: 28px;
-  font-size: clamp(18px, 2.5vw, 28px);
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 620;
-}
-.cover .meta {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 14px;
-}
-
-.site-nav {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  backdrop-filter: blur(16px);
-  background: rgba(255, 255, 255, 0.88);
-  border-bottom: 1px solid rgba(219, 227, 238, 0.9);
-}
-.site-nav .container {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  overflow-x: auto;
-  padding: 10px 16px;
-  scrollbar-width: none;
-}
-.site-nav .container::-webkit-scrollbar { display: none; }
-.site-nav a {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 8px 13px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: #fff;
-  color: var(--navy);
-  font-size: 14px;
-  font-weight: 650;
-  text-decoration: none;
-}
-
-.executive-strip {
-  margin: -34px auto 24px;
-  position: relative;
-  z-index: 2;
-}
-.insight-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-.insight {
-  padding: 18px;
-  border: 1px solid rgba(219, 227, 238, 0.85);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: var(--shadow);
-}
-.insight strong {
-  display: block;
-  color: var(--navy);
-  font-size: 15px;
-  margin-bottom: 6px;
-}
-.insight span {
-  display: block;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.content { padding: 18px 0 82px; }
-.toc,
-.section {
-  background: var(--panel);
-  border: 1px solid rgba(219, 227, 238, 0.9);
-  border-radius: 22px;
-  box-shadow: 0 8px 28px rgba(15, 47, 79, 0.06);
-}
-.toc {
-  padding: 24px;
-  margin-bottom: 22px;
-}
-.toc h3 {
-  margin: 0 0 14px;
-  color: var(--navy);
-  font-size: 20px;
-}
-.toc ol {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px 18px;
-  margin: 0;
-  padding-left: 22px;
-}
-.toc li { margin: 0; }
-.toc a {
-  color: var(--ink);
-  text-decoration: none;
-}
-.toc a:hover { color: var(--blue); }
-
-.section {
-  margin: 0 0 24px;
-  padding: clamp(22px, 4vw, 36px);
-  overflow: hidden;
-}
-.section h2 {
-  margin: 0 0 22px;
-  padding-bottom: 14px;
-  border-bottom: 2px solid var(--line);
-  color: var(--navy);
-  font-size: clamp(23px, 3.2vw, 34px);
-  line-height: 1.25;
-  letter-spacing: 0;
-}
-.section h3 {
-  margin: 28px 0 12px;
-  color: #173f5f;
-  font-size: clamp(18px, 2.3vw, 23px);
-  line-height: 1.35;
-}
-.section h4 {
-  margin: 20px 0 8px;
-  color: var(--blue);
-  font-size: 16px;
-}
-.section p,
-.section li,
-tbody td {
-  font-size: 15px;
-}
-.section p { margin: 0 0 13px; }
-.section p.meta {
-  color: var(--muted);
-  font-size: 14px;
-}
-ul, ol { padding-left: 1.25rem; }
-li { margin: 6px 0; }
-
-.quote {
-  margin: 16px 0 !important;
-  padding: 14px 16px;
-  border-left: 4px solid var(--blue);
-  border-radius: 12px;
-  background: var(--blue-soft);
-  color: #33506f !important;
-}
-.conclusion {
-  margin: 18px 0 !important;
-  padding: 18px 20px;
-  border: 1px solid #cfe0ff;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #eef5ff 0%, #ffffff 100%);
-  color: var(--navy) !important;
-  font-size: 17px !important;
-  font-weight: 720;
-}
-
-.table-scroll {
-  width: 100%;
-  overflow-x: auto;
-  margin: 18px 0;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: #fff;
-}
-table {
-  width: 100%;
-  min-width: 680px;
-  margin: 0;
-  border-collapse: collapse;
-}
-thead th {
-  background: #173f5f;
-  color: #fff;
-  padding: 12px 14px;
-  text-align: left;
-  font-size: 14px;
-  font-weight: 720;
-}
-tbody td {
-  padding: 12px 14px;
-  border-bottom: 1px solid var(--line);
-  vertical-align: top;
-}
-tbody tr:nth-child(even) { background: #f8fbff; }
-tbody tr:last-child td { border-bottom: 0; }
-.center { text-align: center; }
-.tag-red { color: var(--red); font-weight: 720; }
-.tag-orange { color: var(--orange); font-weight: 720; }
-.tag-green { color: var(--green); font-weight: 720; }
-.badge {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 4px;
-  padding: 3px 9px;
-  border-radius: 999px;
-  font-size: 12px;
-  line-height: 1.4;
-  font-weight: 760;
-  vertical-align: 2px;
-}
-.badge-red { background: #fff0f0; color: var(--red); }
-.badge-orange { background: #fff6e8; color: var(--orange); }
-.badge-green { background: #ebfbf2; color: var(--green); }
-
-.disclaimer {
-  width: min(100% - 32px, 1040px);
-  margin: 0 auto 48px;
-  padding: 18px 20px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: #fff;
-  color: var(--muted);
-  font-size: 13px;
-  text-align: center;
-}
-.back-top {
-  position: fixed;
-  right: max(18px, env(safe-area-inset-right));
-  bottom: max(18px, env(safe-area-inset-bottom));
-  z-index: 40;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 46px;
-  height: 46px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--navy);
-  color: #fff;
-  box-shadow: var(--shadow);
-  font-size: 20px;
-  cursor: pointer;
-}
-
-@media (max-width: 720px) {
-  .cover {
-    min-height: 64svh;
-    padding-top: 72px;
-    padding-bottom: 54px;
-    background-position: 57% center;
-  }
-  .cover h1,
-  .cover h2,
-  .cover .subtitle,
-  .cover .meta {
-    width: min(100%, 520px);
-  }
-  .cover .divider {
-    margin-left: 0;
-  }
-  .site-nav a {
-    min-height: 34px;
-    padding: 7px 11px;
-    font-size: 13px;
-  }
-  .executive-strip { margin-top: -22px; }
-  .insight-grid { grid-template-columns: 1fr; }
-  .insight { border-radius: 16px; }
-  .toc,
-  .section { border-radius: 16px; }
-  .toc ol { grid-template-columns: 1fr; }
-  .content { padding-top: 10px; }
-  .section p,
-  .section li,
-  tbody td { font-size: 14px; }
-  table { min-width: 620px; }
-}
-</style>
+    :root{--bg:#07111f;--panel:#0c1929;--panel2:#0f2033;--line:#20354a;--ink:#edf6ff;--muted:#8ca2b8;--cyan:#31d7d0;--amber:#f5ad42;--red:#ff6b6b;--green:#76e6a4;--blue:#63a9ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0,#102d43 0,transparent 28%),var(--bg);color:var(--ink);font:14px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:inherit}.wrap{width:min(1240px,calc(100% - 36px));margin:auto}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.86);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.topbar .wrap{height:58px;display:flex;align-items:center;gap:26px}.brand{font-weight:850;letter-spacing:.04em}.brand i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 15px var(--cyan);margin-right:8px}.nav{display:flex;gap:20px;margin-left:auto}.nav a{text-decoration:none;color:var(--muted);font-size:13px}.nav a:hover{color:var(--ink)}.live{font:11px/1 monospace;color:var(--cyan);border:1px solid #1a605e;border-radius:999px;padding:7px 9px}
+    .hero{padding:80px 0 42px;min-height:560px;display:grid;align-items:center}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:end}.eyebrow{font:700 12px/1 monospace;letter-spacing:.16em;color:var(--cyan);text-transform:uppercase}.hero h1{font-size:clamp(48px,7vw,96px);line-height:.97;letter-spacing:-.06em;margin:22px 0 25px;max-width:850px}.hero h1 span{color:var(--cyan)}.dek{font-size:clamp(16px,2vw,21px);color:#aec0d1;max-width:720px}.hero-meta{display:flex;gap:18px;align-items:center;margin-top:34px;color:var(--muted);font-size:12px}.hero-meta b{color:var(--ink)}.cycle-card{border:1px solid var(--line);background:linear-gradient(155deg,rgba(20,50,72,.8),rgba(10,24,39,.9));padding:28px;border-radius:2px}.gauge{height:14px;background:linear-gradient(90deg,var(--blue),var(--cyan) 43%,var(--amber) 72%,var(--red));position:relative;margin:28px 0 12px}.gauge:after{content:"";position:absolute;left:68%;top:-7px;width:3px;height:28px;background:#fff;box-shadow:0 0 12px #fff}.cycle-card .big{font:800 44px/1 sans-serif;color:var(--amber)}.cycle-card .label{color:var(--muted);margin-top:8px}.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:24px}.mini{background:var(--bg);padding:14px 10px}.mini b{display:block;font-size:17px}.mini span{color:var(--muted);font-size:11px}
+    .ticker{border-block:1px solid var(--line);overflow:hidden;background:#081523}.ticker-track{display:flex;width:max-content;animation:slide 28s linear infinite}.tick{padding:13px 26px;border-right:1px solid var(--line);white-space:nowrap;color:var(--muted);font:12px monospace}.tick b{color:var(--ink);margin-right:8px}.up{color:var(--green)!important}.warn{color:var(--amber)!important}@keyframes slide{to{transform:translateX(-50%)}}
+    section{padding:78px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:80px 1fr 1fr;gap:24px;align-items:start;margin-bottom:38px}.num{font:12px monospace;color:var(--cyan)}h2{font-size:clamp(30px,4vw,52px);line-height:1.05;margin:0;letter-spacing:-.04em}.section-intro{color:var(--muted);font-size:15px;max-width:520px;margin:0}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:linear-gradient(180deg,rgba(14,31,49,.98),rgba(10,23,38,.98));border:1px solid var(--line);padding:24px;min-width:0}.panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:22px}.panel h3{font-size:18px;margin:0}.kicker{color:var(--muted);font:11px monospace;text-transform:uppercase}.badge{display:inline-flex;align-items:center;border:1px solid var(--line);padding:5px 8px;color:var(--muted);font:10px monospace}.legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:11px}.legend i{display:inline-block;width:8px;height:8px;margin-right:5px}.chart{width:100%;height:260px;display:block}.callout{border-left:2px solid var(--cyan);padding:10px 0 10px 16px;color:#b8c8d7;margin-top:18px}.callout b{color:var(--ink)}
+    .capex-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:18px}.capex-card{border:1px solid var(--line);padding:15px;background:#091726}.capex-card span{font-size:11px;color:var(--muted)}.capex-card b{display:block;font-size:22px;margin:4px 0}.capex-card em{font-style:normal;color:var(--green);font-size:11px}
+    .analogy-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.era{background:var(--panel);padding:20px}.era .year{font:11px monospace;color:var(--cyan)}.era h4{font-size:16px;margin:18px 0 7px}.era p{font-size:12px;color:var(--muted);margin:0}.era .draw{font-size:28px;font-weight:800;margin-top:18px;color:var(--amber)}.scenario{display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:center;border-top:1px solid var(--line);padding:18px 0}.scenario:first-of-type{border-top:0}.prob{width:82px;height:82px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--cyan) var(--p),#17283a 0);position:relative}.prob:before{content:"";position:absolute;inset:7px;border-radius:50%;background:var(--panel)}.prob b{z-index:1;font-size:18px}.scenario h4{margin:0 0 4px}.scenario p{margin:0;color:var(--muted);font-size:12px}.warning-box{margin-top:18px;background:#211a14;border:1px solid #554027;padding:16px;color:#d8bd95}
+    .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.controls button{appearance:none;border:1px solid var(--line);background:#0b1a2a;color:var(--muted);padding:8px 12px;cursor:pointer;font:12px inherit}.controls button.active,.controls button:hover{border-color:var(--cyan);color:var(--cyan)}.table-wrap{overflow:auto;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;min-width:1280px}th{position:sticky;top:58px;background:#0b1a2a;color:var(--muted);font:10px monospace;letter-spacing:.05em;text-align:left;padding:12px;border-bottom:1px solid var(--line)}td{padding:14px 12px;border-bottom:1px solid #172b3d;vertical-align:middle}tbody tr:hover{background:#102237}.company b{display:block}.company span{color:var(--muted);font:10px monospace}.pe{font-weight:750}.momentum{width:90px;height:5px;background:#1b3043}.momentum i{display:block;height:100%;background:var(--cyan)}.tag{display:inline-block;padding:4px 8px;font:10px monospace;border:1px solid}.tag.rec{color:var(--green);border-color:#286444;background:#0b291d}.tag.watch{color:var(--amber);border-color:#735422;background:#2b2110}.tag.avoid{color:var(--red);border-color:#713030;background:#2a1418}.dim{color:var(--muted);font-size:12px}.delta.up{font-weight:700}.delta.down{color:var(--red)}
+    .method{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.method-item{border-top:2px solid var(--line);padding-top:18px}.method-item b{font-size:16px}.method-item p{color:var(--muted);font-size:12px}.formula{font:12px monospace;color:var(--cyan);background:#07111f;padding:10px;margin-top:12px}
+    .sources{columns:2;column-gap:42px}.sources a{display:block;color:var(--muted);font-size:12px;margin:0 0 10px;text-underline-offset:3px}.sources a:hover{color:var(--cyan)}
+    footer{padding:40px 0 70px;color:var(--muted);font-size:11px}.footer-grid{display:flex;justify-content:space-between;gap:30px}.disclaimer{max-width:820px}
+    @media(max-width:900px){.hero-grid,.grid-2,.analogy-grid{grid-template-columns:1fr}.section-head{grid-template-columns:48px 1fr}.section-intro{grid-column:2}.capex-cards{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:1fr 1fr}.method{grid-template-columns:1fr}.nav{display:none}.hero{padding-top:55px}.sources{columns:1}}
+    @media(max-width:560px){.wrap{width:min(100% - 24px,1240px)}.hero h1{font-size:47px}.hero{min-height:auto}.section-head{grid-template-columns:1fr}.section-intro{grid-column:auto}.num{margin-bottom:-12px}.capex-cards{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr}.footer-grid{display:block}.live{margin-left:auto}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track{animation:none}}
+  </style>
 </head>
 <body>
-<!-- COVER -->
-<div class="cover">
-  <h1>跨境配置通道政策解读</h1>
-  <h2>券商暂停股票类跨境TRS新增</h2>
-  <div class="divider"></div>
-  <div class="subtitle">对私募客户的实质性影响与应对建议</div>
-  <div class="meta">2026年6月30日</div>
-  <div class="meta" >数据截至：2026年6月29日 | 信息来源：财联社、界面新闻、第一财经、上证报、雪球等</div>
-</div>
+  <header class="topbar"><div class="wrap"><div class="brand"><i></i>AI CYCLE LAB</div><nav class="nav"><a href="#capex">CAPEX</a><a href="#analogy">泡沫类比</a><a href="#chain">AI产业链</a><a href="#method">方法</a></nav><span class="live">DATA · 2026.07.29</span></div></header>
+  <main>
+    <div class="hero"><div class="wrap hero-grid">
+      <div><div class="eyebrow">AI investment cycle / China supply chain</div><h1>AI 科技<br><span>周期仪表盘</span></h1><p class="dek">当 CAPEX 仍在加速、估值开始分化，剧烈调整更像周期中段的“回报率审判”，还是泡沫终点？从资金曲线、历史样本与盈利二阶导寻找答案。</p><div class="hero-meta"><span>更新 <b>2026.07.29</b></span><span>覆盖 <b>12 家核心公司</b></span><span>频率 <b>季度</b></span></div></div>
+      <aside class="cycle-card"><div class="kicker">CURRENT REGIME</div><div class="gauge"></div><div class="big">68 / 100</div><div class="label">扩张后段 · 高波动 · 尚未确认反转</div><div class="mini-grid"><div class="mini"><b>↑</b><span>CAPEX 斜率</span></div><div class="mini"><b>↓</b><span>估值分位</span></div><div class="mini"><b>分化</b><span>盈利动量</span></div></div></aside>
+    </div></div>
+    <div class="ticker"><div class="ticker-track" id="ticker"></div></div>
 
-<!-- CONTENT -->
+    <section id="capex"><div class="wrap">
+      <div class="section-head"><div class="num">01 / 04</div><h2>CAPEX：订单的<br>第一性来源</h2><p class="section-intro">2026 年四大云厂商资本开支指引合计约 695–7250 亿美元。市场的关键问题已经从“会不会投”切换为“资本回报率能否跟上折旧”。</p></div>
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><div class="kicker">USD BILLION · CALENDAR YEAR</div><h3>核心云厂商资本开支曲线</h3></div><span class="badge">2026E</span></div><canvas class="chart" id="hyperscalerChart"></canvas><div class="legend"><span><i style="background:#31d7d0"></i>Amazon</span><span><i style="background:#63a9ff"></i>Microsoft</span><span><i style="background:#f5ad42"></i>Alphabet</span><span><i style="background:#9b87f5"></i>Meta</span></div><p class="callout"><b>核心判断：</b> 2026E 仍在上修，但进入基数与融资约束共同抬升的阶段；对上游而言，绝对额比同比增速更重要。</p></article>
+        <article class="panel"><div class="panel-head"><div><div class="kicker">MODELLED COMMITMENTS · USD BN</div><h3>主权 / 准主权 AI 资金曲线</h3></div><span class="badge">情景估算</span></div><canvas class="chart" id="sovereignChart"></canvas><div class="legend"><span><i style="background:#31d7d0"></i>Stargate US / MGX</span><span><i style="background:#f5ad42"></i>UAE / G42</span><span><i style="background:#63a9ff"></i>Saudi / HUMAIN</span><span><i style="background:#9b87f5"></i>Europe / France</span></div><p class="callout"><b>注意口径：</b> 项目承诺额并非当期会计 CAPEX。曲线按公开产能里程碑与承诺总额做节奏化拆分，用于观察需求方向，不用于精确预测。</p></article>
+      </div>
+      <div class="capex-cards"><div class="capex-card"><span>AMAZON 2026E</span><b>$200B</b><em>AI / AWS 主导</em></div><div class="capex-card"><span>MICROSOFT 2026E</span><b>$190B</b><em>含融资租赁</em></div><div class="capex-card"><span>ALPHABET 2026E</span><b>$195–205B</b><em>最新区间</em></div><div class="capex-card"><span>META 2026E</span><b>$125–145B</b><em>区间上修</em></div><div class="capex-card"><span>UAE CAMPUS</span><b>5 GW</b><em>首期 200MW</em></div></div>
+    </div></section>
 
-<nav class="site-nav" aria-label="页面章节导航">
-  <div class="container">
-    <a href="#s1">概要</a>
-    <a href="#s2">数据</a>
-    <a href="#s3">影响</a>
-    <a href="#s4">连锁反应</a>
-    <a href="#s5">应对策略</a>
-    <a href="#s6">监管趋势</a>
-    <a href="#s7">投顾建议</a>
-    <a href="#s8">总结</a>
-  </div>
-</nav>
-<section class="executive-strip">
-  <div class="container insight-grid">
-    <article class="insight">
-      <strong>核心变化</strong>
-      <span>股票类跨境 TRS 暂停新增，存量到期管理和替代通道成为短期重点。</span>
-    </article>
-    <article class="insight">
-      <strong>主要影响对象</strong>
-      <span>重仓海外科技股并依赖 TRS 通道的主观多头私募受影响更明显。</span>
-    </article>
-    <article class="insight">
-      <strong>操作抓手</strong>
-      <span>先排查产品 TRS 敞口、到期节奏和续作安排，再做客户沟通与配置调整。</span>
-    </article>
-  </div>
-</section>
+    <section id="analogy"><div class="wrap">
+      <div class="section-head"><div class="num">02 / 04</div><h2>这次调整，<br>历史上像什么？</h2><p class="section-intro">单纯看跌幅容易误判。更重要的是同时观察：终端收入是否加速、龙头是否有现金流、供给是否出现重复建设，以及信用利差是否持续恶化。</p></div>
+      <div class="analogy-grid">
+        <article class="panel"><div class="panel-head"><div><div class="kicker">HISTORICAL ANALOGUES</div><h3>技术浪潮中的“中途急跌”</h3></div></div><div class="timeline">
+          <div class="era"><div class="year">1997.10</div><h4>亚洲金融冲击</h4><p>外生流动性事件，科技趋势未破坏；随后纳指继续进入主升段。</p><div class="draw">−7.2%</div></div>
+          <div class="era"><div class="year">1998.08</div><h4>俄债 / LTCM</h4><p>信用收缩与去杠杆，优质科技股快速修复，18 个月后泡沫见顶。</p><div class="draw">≈−30%</div></div>
+          <div class="era"><div class="year">2000.03</div><h4>互联网泡沫破裂</h4><p>供给过剩、商业模式弱、融资窗口关闭；纳指最终下跌近八成。</p><div class="draw">≈−78%</div></div>
+          <div class="era"><div class="year">2022</div><h4>云计算估值出清</h4><p>加息与疫情红利回吐，现金流龙头先于长久期资产完成修复。</p><div class="draw">−36%</div></div>
+        </div><div class="warning-box">当前更接近 <b>1998 去杠杆 × 2022 估值出清</b> 的混合态，而不是已确认的 2000 年终局；但若 CAPEX 下修、云收入减速、信用压力三项同时出现，类比将迅速转向 2000。</div></article>
+        <article class="panel"><div class="panel-head"><div><div class="kicker">12–18 MONTH SCENARIOS</div><h3>创新高路径概率</h3></div></div>
+          <div class="scenario"><div class="prob" style="--p:55%"><b>55%</b></div><div><h4>盈利消化后再创新高</h4><p>CAPEX 绝对额维持，云收入兑现，二阶动量先降后稳。</p></div></div>
+          <div class="scenario"><div class="prob" style="--p:27%;background:conic-gradient(var(--amber) var(--p),#17283a 0)"><b>27%</b></div><div><h4>高位宽幅震荡</h4><p>订单强但估值受折旧、融资成本与竞争压制。</p></div></div>
+          <div class="scenario"><div class="prob" style="--p:18%;background:conic-gradient(var(--red) var(--p),#17283a 0)"><b>18%</b></div><div><h4>泡沫终局 / 深度出清</h4><p>超预期 CAPEX 下修叠加 AI 收入回报不足与信用事件。</p></div></div>
+          <p class="dim">概率为条件化情景权重，不是统计学保证。每季随 CAPEX、云收入、盈利预期和信用利差更新。</p>
+        </article>
+      </div>
+    </div></section>
 
-<div class="content">
-<div class="container">
+    <section id="chain"><div class="wrap">
+      <div class="section-head"><div class="num">03 / 04</div><h2>AI 链：估值 ×<br>盈利二阶导</h2><p class="section-intro">“增速高”不等于“值得买”。模型同时看 2026E 估值、未来三季环比增速，以及环比增速的变化方向（即二阶导）。新易盛在原名单中重复出现，此处已去重。</p></div>
+      <div class="controls" id="filters"><button class="active" data-filter="all">全部 12 家</button><button data-filter="光模块">光模块</button><button data-filter="PCB">PCB</button><button data-filter="半导体设备">半导体设备</button><button data-filter="材料">材料</button><button data-filter="服务器">服务器 / 云</button></div>
+      <div class="table-wrap"><table><thead><tr><th>公司 / 环节</th><th>2026E PE</th><th>估值温度</th><th>内资 / 外资估值锚</th><th>未来三季净利环比</th><th>二阶导</th><th>模型分</th><th>结论</th><th>核心观察</th></tr></thead><tbody id="stockRows"></tbody></table></div>
+      <p class="dim" style="margin-top:14px">注：PE 与盈利序列为基于公开一致预期、公司公告及行业景气度形成的 2026-07-29 指示性快照，并非实时行情。季度环比并非券商直接披露值，而是以券商年度预测为锚、结合已披露单季利润和产能/产品节奏进行拆分。意华股份 Q1 受汇兑损失压低，因此后续环比包含低基数修复；财报空窗期误差可能显著。</p>
+    </div></section>
 
-<!-- TOC -->
-<div class="toc">
-  <h3>目 录</h3>
-  <ol>
-    <li><a href="#s1">事件概要：券商暂停股票类跨境TRS新增</a></li>
-    <li><a href="#s2">行业关键数据（公开报道整理）</a></li>
-    <li><a href="#s3">对私募客户的实质性影响（分层评估）</a></li>
-    <li><a href="#s4">连锁影响五维度</a></li>
-    <li><a href="#s5">受影响主观多头私募的应对策略</a></li>
-    <li><a href="#s6">监管政策导向与趋势分析</a></li>
-    <li><a href="#s7">FOF投顾实操建议</a></li>
-    <li><a href="#s8">总结</a></li>
-  </ol>
-</div>
-
-<!-- S1 -->
-<div class="section" id="s1">
-  <h2>一、事件概要：券商暂停股票类跨境TRS新增</h2>
-  <p>2026年6月23日晚间，监管通知券商，要求暂停股票类跨境TRS（Total Return Swap，总收益互换）新增规模。券商连夜向合作私募传达通知，6月24日起正式执行。</p>
-
-  <table>
-    <thead><tr><th>关键时间节点</th><th>事件详情</th></tr></thead>
-    <tbody>
-      <tr><td>6月23日晚间</td><td>监管通知券商 → 券商连夜转告私募：暂停股票类跨境TRS新增，禁止新开仓、禁止加仓续作</td></tr>
-      <tr><td>6月24日起</td><td>券商正式执行停新增；存量头寸可正常到期、平仓，不强制砍仓</td></tr>
-      <tr><td>执行口径待明确</td><td>两种解读：①【所有新开仓全部暂停】（当前主流理解）②【不得新增净额度，存量额度内可调配】</td></tr>
-    </tbody>
-  </table>
-
-  <table>
-    <thead>
-      <tr>
-        <th style="background:#dc2626">覆盖范围</th>
-        <th style="background:#dc2626">具体内容</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td style="font-weight:600;color:var(--red)">❌ 本次受影响</td><td>股票类跨境TRS（新增暂停，存量到期压降）</td></tr>
-      <tr><td style="font-weight:600;color:var(--green)">✅ 不受影响</td><td>期货类TRS、城投债类TRS、FICC业务、北向相关业务</td></tr>
-      <tr><td style="font-weight:600;color:var(--green)">✅ 存量处置原则</td><td>正常到期、可平仓、不强制砍仓；额度平仓后收回</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<!-- S2 -->
-<div class="section" id="s2">
-  <h2>二、行业关键数据（公开报道整理）</h2>
-  <table>
-    <thead><tr><th>指标</th><th class="center">数据</th><th>来源</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">跨境股票TRS存量规模</td><td class="center">约 2,000 – 3,000 亿元</td><td style="color:var(--text-secondary)">财联社</td></tr>
-      <tr><td style="font-weight:600">通道费率（年化）</td><td class="center">名义本金的 1% – 2%</td><td style="color:var(--text-secondary)">财联社一线调研</td></tr>
-      <tr><td style="font-weight:600">券商年收入贡献</td><td class="center">约 30 – 45 亿元</td><td style="color:var(--text-secondary)">按1.5%测算</td></tr>
-      <tr><td style="font-weight:600">占上市券商总收入</td><td class="center">约 0.5% – 0.8%</td><td style="color:var(--text-secondary)">财联社</td></tr>
-      <tr><td style="font-weight:600">占TOP5券商收入</td><td class="center">约 1.3% – 2%</td><td style="color:var(--text-secondary)">财联社</td></tr>
-      <tr><td style="font-weight:600">有资格展业券商</td><td class="center">仅 9 家</td><td style="color:var(--text-secondary)">上证报</td></tr>
-    </tbody>
-  </table>
-
-  <h3>关键背景</h3>
-  <ul>
-    <li>2024年初起，该业务已处于【限制净新增】状态，本次是进一步收紧</li>
-    <li>2022年《期货和衍生品法》落地，为场外衍生品提供法律基础</li>
-    <li>2026年5月，富途、老虎等非法跨境展业被查处，影响约2000-2500亿港元存量</li>
-    <li>个人直接炒港美股通道被堵后，部分资金转向借道私募TRS产品（上证报）</li>
-    <li>2026年9月1日将施行《私募投资基金信息披露监督管理办法》，要求披露跨境投资路径</li>
-  </ul>
-</div>
-
-<!-- S3 -->
-<div class="section" id="s3">
-  <h2>三、对私募客户的实质性影响（分层评估）</h2>
-
-  <h3>第一梯队：重仓跨境TRS的主观多头私募 <span class="badge badge-red">高影响</span></h3>
-  <p class="meta">典型画像：以海外科技股（英伟达、特斯拉、台积电等）为核心持仓，主要通过TRS通道配置</p>
-
-  <h4>策略不可持续</h4>
-  <ul>
-    <li>存量合约到期即终止，无法续作 → 海外科技股仓位必然阶段性缩减</li>
-    <li>【不让新开、加仓续作】→ 即使看好海外行情，也无法新增头寸</li>
-    <li>若到期合约集中在Q3/Q4，将面临被动降仓压力</li>
-  </ul>
-
-  <h4>募资受阻</h4>
-  <ul>
-    <li>此前【借道TRS投海外科技股】是重要募资卖点，现在不复存在</li>
-  </ul>
-
-  <h4>净值波动风险</h4>
-  <ul>
-    <li>到期平仓 → 浮盈变实盈，短期净值可能因集中变现而波动</li>
-    <li>若持仓在浮亏状态，被迫到期平仓将锁定亏损</li>
-  </ul>
-
-  <h4>高杠杆产品的【保证金螺旋】风险</h4>
-  <ul>
-    <li>TRS天然带杠杆，部分产品杠杆倍数可能在2-3倍以上</li>
-    <li>行情回调 → 需要追加保证金 → 但无法新增开仓补充 → 被迫减仓 → 放大亏损</li>
-  </ul>
-  <p class="quote">▸ 业界声音：东方港湾但斌在雪球公开表示"本来收益互换的额度就非常紧张，‘一票难求’。出和不出，都一样。"</p>
-
-  <h3>第二梯队：适度使用TRS的量化/多策略私募 <span class="badge badge-orange">中低影响</span></h3>
-  <ul>
-    <li>多策略配置受限——TRS作为【卫星配置】无法再增配</li>
-    <li>原有头寸到期后，整体组合的海外敞口自然下降</li>
-    <li>多家量化私募回应：【不涉及或涉及较少，受影响较小】（腾讯新闻）</li>
-    <li>核心策略仍在A股/期货市场，整体影响可控</li>
-  </ul>
-
-  <h3>第三梯队：纯A股/债券/期货策略私募 <span class="badge badge-green">几乎为零</span></h3>
-  <ul>
-    <li>本次政策明确仅限股票类跨境TRS，期货类TRS、城投债类TRS不受影响</li>
-    <li>资金回流A股硬科技赛道→这类私募的A股配置反而可能间接受益（第一财经判断）</li>
-  </ul>
-
-  <h3>第四梯队：通过私募通道【借道出海】的投资者 <span class="badge badge-red">结构性冲击</span></h3>
-  <table>
-    <thead><tr><th>时间</th><th>事件</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">2026年5月</td><td>富途/老虎被查处→个人直接炒港美股通道被堵，约2000-2500亿港元存量需清理</td></tr>
-      <tr><td style="font-weight:600">2026年5-6月</td><td>部分资金转向借道私募产品参与跨境TRS→TRS需求激增</td></tr>
-      <tr><td style="font-weight:600">2026年6月23日</td><td>TRS新增被暂停→路径全线收窄</td></tr>
-    </tbody>
-  </table>
-  <p style="margin-top:12px">结论：监管两步走策略——先封个人直接渠道（5月富途/老虎），再堵机构绕道渠道（6月TRS）。这部分资金将被迫转向QDII（额度紧张、溢价）、港股通（仅限港股），或回流A股。</p>
-</div>
-
-<!-- S4 -->
-<div class="section" id="s4">
-  <h2>四、连锁影响五维度</h2>
-
-  <h3>维度一：私募行业内部格局分化</h3>
-  <table>
-    <thead><tr><th></th><th>已布局的头部私募</th><th>中小私募</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">TRS存量</td><td>有存量头寸可有序到期</td><td>本身难拿到额度</td></tr>
-      <tr><td style="font-weight:600">募资优势</td><td>存量稀缺=募资差异化卖点</td><td>更难复制海外策略</td></tr>
-      <tr><td style="font-weight:600">对冲能力</td><td>可通过QDLP等替代通道</td><td>替代通道难获取</td></tr>
-    </tbody>
-  </table>
-  <p class="quote">财联社判断："早已完成跨境布局、业绩曲线较好的头部私募，可能因为存量稀缺而在募资端获得更多关注"</p>
-
-  <h3>维度二：券商业务此消彼长</h3>
-  <ul>
-    <li>股票TRS通道费收入（9家持牌券商）受影响，但占比仅0.5%-0.8%，冲击有限</li>
-    <li>竞争重点从【谁能给额度】转向【谁能在合规边界内做资产配置和风险管理】</li>
-    <li>期货/债券TRS、北向TRS不受影响，头部券商的跨境综合服务能力分化可能加剧</li>
-  </ul>
-
-  <h3>维度三：资金流动方向重建</h3>
-  <table>
-    <thead><tr><th>替代路径</th><th>特点</th><th>局限性</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">QDII基金</td><td>正规合规渠道，可二级市场买入</td><td>额度紧张，部分产品限购/溢价</td></tr>
-      <tr><td style="font-weight:600">港股通</td><td>南向直接投资通道</td><td>仅限港股，不含美股/欧股</td></tr>
-      <tr><td style="font-weight:600">跨境理财通</td><td>大湾区居民个人渠道</td><td>地域受限，个人额度有限</td></tr>
-      <tr><td style="font-weight:600">QDLP/QDIE试点</td><td>可配置海外资产</td><td>额度稀缺，门槛极高</td></tr>
-    </tbody>
-  </table>
-  <p class="conclusion">第一财经判断："中长期或将逐步回流至国内硬科技赛道，为本土科技产业带来增量资金"</p>
-
-  <h3>维度四：FOF配置直接影响</h3>
-  <table>
-    <thead><tr><th>策略类型</th><th>影响评估</th><th>配置建议</th></tr></thead>
-    <tbody>
-      <tr><td>海外股票多头</td><td class="tag-red">高—策略容量缩小</td><td>谨慎持仓/到期不续</td></tr>
-      <tr><td>多策略/宏观</td><td class="tag-orange">中—需穿透核查</td><td>核查TRS敞口和时间表</td></tr>
-      <tr><td>纯A股量化/指增</td><td class="tag-green">低—几乎无影响</td><td>维持配置</td></tr>
-      <tr><td>债券/期货策略</td><td class="tag-green">无影响</td><td>维持配置</td></tr>
-    </tbody>
-  </table>
-
-  <h3>维度五：监管趋势前瞻</h3>
-  <ul>
-    <li>2026年9月1日《私募投资基金信息披露监督管理办法》施行</li>
-    <li>核心要求：必须披露跨境投资规模及占比、投资方式及路径</li>
-    <li>通过衍生品投资境外的：必须披露交易对手方名称、管理人、杠杆运用情况</li>
-    <li>透明度大幅提升，之前【持仓不透明】的问题将被穿透</li>
-  </ul>
-</div>
-
-<!-- S5 (NEW) -->
-<div class="section" id="s5">
-  <h2>五、受影响主观多头私募的应对策略</h2>
-  <p>针对第一梯队中重仓跨境TRS的主观多头私募，以下从策略、通道、产品、客户、合规五个维度提出应对建议：</p>
-
-  <h3>1. 策略层面：制定【到期场景化排表】</h3>
-  <table>
-    <thead><tr><th>到期时间窗</th><th>应对策略</th><th>优先级</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">Q3 2026内到期的合约</td><td>有序平仓，不强行拖延</td><td class="tag-red">高</td></tr>
-      <tr><td style="font-weight:600">Q4 2026 – Q1 2027到期的合约</td><td>评估替代方案，观察监管变化</td><td class="tag-orange">中</td></tr>
-      <tr><td style="font-weight:600">Q2 2027及以上到期的合约</td><td>完成替代通道布局，策略转型</td><td class="tag-green">较低但需提前规划</td></tr>
-    </tbody>
-  </table>
-
-  <h3>2. 通道层面：寻找合规替代方案</h3>
-  <table>
-    <thead><tr><th>替代方案</th><th>适用场景</th><th>实操建议</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">QDII基金</td><td>二级市场买入海外股票或ETF</td><td>关注溢价率，避免溢价过高时大规模买入</td></tr>
-      <tr><td style="font-weight:600">港股通</td><td>配置港股上市公司</td><td>可作为部分替代，但美股/欧股无法覆盖</td></tr>
-      <tr><td style="font-weight:600">QDLP试点</td><td>机构级海外布局，可配置美股</td><td>提前申请额度，准备充分的合规文件</td></tr>
-      <tr><td style="font-weight:600">跨境理财通</td><td>居民个人渠道</td><td>坚守合规底线，避免绕道操作</td></tr>
-    </tbody>
-  </table>
-  <p class="meta">此外，可关注以下苗头性机会：</p>
-  <ul>
-    <li>部分头部券商正在申请扩大QDLP额度——跟踪进展，及时占位</li>
-    <li>中勇兴业、产业基金等国资系蓝筹可能获批更多跨境投资额度——可尝试寻求合作机会</li>
-  </ul>
-
-  <h3>3. 产品层面：调整策略与产品结构</h3>
-  <ul>
-    <li>减少对纯海外股票多头策略的依赖，增加A股策略占比</li>
-    <li>如果管理人资质充足，可尝试申请QDLP试点，将海外投资转向合规通道</li>
-    <li>产品设计时增加流动性管理机制，避免因通道变化导致的被动减仓风险</li>
-    <li>对多策略产品，设定海外卫星配置的上限比例，约束风控层面的依赖</li>
-  </ul>
-
-  <h3>4. 客户层面：稳定投资者信心</h3>
-  <ul>
-    <li><strong>主动沟通：</strong>及时向投资者说明政策影响和应对措施</li>
-    <li><strong>透明披露：</strong>展示存量TRS到期时间表和替代方案进展</li>
-    <li><strong>设定合理预期：</strong>不要承诺"找到替代方案"，而是展示"有多套预案"</li>
-    <li><strong>建议投资者分散配置，</strong>减少对单一私募产品的集中依赖</li>
-  </ul>
-
-  <h3>5. 合规层面：提前布局信息披露</h3>
-  <ul>
-    <li>假期排查所有跨境投资路径的合规性，及早清理风险地雷</li>
-    <li>提前准备跨境投资披露模板，满足2026年9月信披新规要求</li>
-    <li>确保单一投资者权益不超过20%，满足中证协专业投资者标准</li>
-    <li>与券商建立常态化沟通机制，及时获取监管口径变化</li>
-  </ul>
-</div>
-
-<!-- S6 (NEW) -->
-<div class="section" id="s6">
-  <h2>六、监管政策导向与趋势分析</h2>
-  <p>近期一系列政策动作背后，体现了监管层面明确的政策思路和长期导向。以下从四个层面解读：</p>
-
-  <h3>1. 核心导向：【金融安全与资本管制】</h3>
-  <p>当前国际地缘政治格局下，中美科技争霸加剧，资本跨境流动监管严格化是全球趋势。中国监管系统性地收紧跨境投资渠道，主要目的是：</p>
-  <ul>
-    <li>防范海外市场波动通过衍生品链条传导到国内金融体系</li>
-    <li>避免大规模资金外流导致的汇率压力和资产价格波动</li>
-    <li>确保国内资本市场的稳定性和独立性</li>
-    <li>2026年5月富途/老虎被查 → 6月TRS新增暂停 → 两步或多步走的系统性异地流管理</li>
-  </ul>
-
-  <h3>2. 法律框架：【衍生品市场规范化】</h3>
-  <table>
-    <thead><tr><th>法规/政策</th><th>核心内容</th><th>对私募的影响</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">2022《期货和衍生品法》</td><td>场外衍生品第一步法律规范</td><td>为本轮收紧提供法律基础</td></tr>
-      <tr><td style="font-weight:600">2024年初限制净新增</td><td>衍生品业务的微调阶段</td><td>市场已有预期，本轮是加码</td></tr>
-      <tr><td style="font-weight:600">2026年信披新规</td><td>私募投资透明度提升</td><td>跨境投资必须披露路径</td></tr>
-      <tr><td style="font-weight:600">2026年6月TRS暂停</td><td>跨境衍生品进一步收紧</td><td>机构绕道被堵塞</td></tr>
-    </tbody>
-  </table>
-  <p>从时间线看，监管采取的是【渐进式】策略——先立法（法律框架）→再微调（限制净新增）→再收紧（暂停新增），同时配合信披新规提升透明度。</p>
-
-  <h3>3. 长期目标：【资金回流支持国内科技】</h3>
-  <p>这是最核心的结构性导向。第一财经、财联社多家媒体均指出：政策背后隐含结构性调整意图。</p>
-  <ul>
-    <li>资金从海外科技股转向国内硬科技赛道（半导体、AI、新能源、重大装备等）</li>
-    <li>与2018年以来科创板、北交所的建设意图一致：重点资本市场服务国内</li>
-    <li>政府希望通过引导资本回流，加速国内科技产业升级，减少对海外科技股的依赖</li>
-    <li>同时维护汇率稳定，减轻国际资本流动对国内货币政策的冲击</li>
-  </ul>
-
-  <h3>4. 执行风格：【弹性式管控】</h3>
-  <p>值得注意的是，监管并未"一切了之"，而是采取了差异化、弹性化的管控手段：</p>
-  <ul>
-    <li><span style="color:var(--green);font-weight:720">✓</span> 存量合约不强制平仓 —— 避免过度冲击市场</li>
-    <li><span style="color:var(--green);font-weight:720">✓</span> 仅限股票类TRS —— 期货/债券TRS放行，体现差异化管控</li>
-    <li><span style="color:var(--green);font-weight:720">✓</span> 可能留有口径空间 —— 【不得新增净额度，存量额度内可调配】的解读若落地，弹性更大</li>
-    <li><span style="color:var(--green);font-weight:720">✓</span> 并行推出信披新规 —— 不是简单"堵"，而是"规范化+透明+合规"</li>
-  </ul>
-
-  <h3>5. 前景判断</h3>
-  <ul>
-    <li><strong>短期：</strong>执行口径明确后，打击非法绕道不变，合规通道稳定</li>
-    <li><strong>中期：</strong>QDLP/QDIE等合规通道可能被放大——"栏不体"而非"不让出去"</li>
-    <li><strong>长期：</strong>跨境衍生品统一监管框架+信披透明化，形成全覆盖监管体系</li>
-  </ul>
-  <p class="conclusion">核心论断：政策不是"闭关"，而是"规范化后的有限开放"</p>
-</div>
-
-<!-- S7 -->
-<div class="section" id="s7">
-  <h2>七、FOF投顾实操建议</h2>
-
-  <h3>立即行动：存量排查清单</h3>
-  <ol>
-    <li>梳理FOF池中所有涉及海外配置的产品</li>
-    <li>逐只确认是否使用跨境TRS通道；区分股票类TRS（受影响）vs 期货/债券TRS（不受影响）</li>
-    <li>获取每只产品TRS存量的到期时间表，评估集中度（如Q3到期的占比）</li>
-    <li>确认管理人是否有替代方案（QDII/港股通/QDLP）</li>
-  </ol>
-
-  <h3>客户沟通要点</h3>
-  <table>
-    <thead><tr><th style="width:30%">客户可能的提问</th><th>建议回答</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600">"我的产品会不会亏？"</td><td>存量不强制平仓，正常到期。但股票类TRS无法新增/续作，如果产品此前主要靠TRS配海外，策略会受到制约</td></tr>
-      <tr><td style="font-weight:600">"这是不是紧急利空？"</td><td>不是突发。2024年初已限制净新增，是政策延续。多家私募反馈"影响不大"</td></tr>
-      <tr><td style="font-weight:600">"要不要赎回？"</td><td>取决于产品TRS敞口占比。建议先核实管理人仓位结构再判断，不要急于决策</td></tr>
-      <tr><td style="font-weight:600">"海外配置还能怎么做？"</td><td>QDII、港股通、跨境理财通、QDLP是合规替代路径，各有利弊</td></tr>
-    </tbody>
-  </table>
-
-  <h3>中期关注事项</h3>
-  <ul>
-    <li>2026年9月信披新规实施→私募跨境投资透明度提升，可更全面评估影响</li>
-    <li>关注A股硬科技赛道资金流入机会（可能受益于部分TRS资金回流）</li>
-    <li>关注QDII ETF折溢价波动（需求增加可能导致溢价率上升）</li>
-    <li>关注监管执行口径落地——对业务收缩速度影响很大</li>
-  </ul>
-</div>
-
-<!-- S8 -->
-<div class="section" id="s8">
-  <h2>八、总结</h2>
-  <p class="conclusion" >
-    对绝大多数国内私募客户来说，<span style="color:var(--green)">这事跟你关系不大</span>；
-    对借道TRS重仓海外科技股的私募，需要认真做一次到期时间表的沙盘推演，并提前布局替代方案。
-  </p>
-</div>
-
-<div class="disclaimer">
-  免责声明：本报告基于公开信息整理分析，不构成任何投资建议。投资者应根据自身情况独立判断。
-</div>
-
-</div>
-</div>
-
-
-
-
-<button class="back-top" id="backTop" aria-label="回到顶部">↑</button>
-<script>
-document.querySelectorAll("table").forEach((table) => {
-  if (!table.parentElement.classList.contains("table-scroll")) {
-    const wrap = document.createElement("div");
-    wrap.className = "table-scroll";
-    table.parentNode.insertBefore(wrap, table);
-    wrap.appendChild(table);
-  }
-});
-
-const backTop = document.getElementById("backTop");
-const navLinks = Array.from(document.querySelectorAll(".site-nav a"));
-window.addEventListener("scroll", () => {
-  backTop.style.display = window.scrollY > 520 ? "flex" : "none";
-  let current = "";
-  document.querySelectorAll(".section[id]").forEach((section) => {
-    if (section.getBoundingClientRect().top < 120) current = section.id;
-  });
-  navLinks.forEach((link) => {
-    link.toggleAttribute("aria-current", link.getAttribute("href") === "#" + current);
-  });
-});
-backTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-</script>
+    <section id="method"><div class="wrap">
+      <div class="section-head"><div class="num">04 / 04</div><h2>如何读这张表</h2><p class="section-intro">模型不是在预测一天的涨跌，而是在回答：当前估值是否已经为未来盈利加速度支付了过高价格。</p></div>
+      <div class="method"><div class="method-item"><b>① 估值温度</b><p>2026E PE 与自身历史、同环节公司及增长持续性比较。低估值不自动等于低风险。</p><div class="formula">V = PE / sustainable growth</div></div><div class="method-item"><b>② 盈利二阶导</b><p>比较连续季度环比增速变化。增速仍高但边际放缓，会被模型降权；负增速收窄则可能加分。</p><div class="formula">A = Δ(qoq growth)</div></div><div class="method-item"><b>③ 综合结论</b><p>估值 35%、二阶动量 40%、CAPEX 敏感度 15%、兑现质量 10%。推荐只代表相对性价比。</p><div class="formula">Score = V + A + demand + quality</div></div></div>
+      <div class="panel" style="margin-top:28px"><div class="panel-head"><div><div class="kicker">PRIMARY & REFERENCE SOURCES</div><h3>数据来源与校验锚点</h3></div></div><div class="sources">
+        <a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3" target="_blank" rel="noopener">Microsoft FY2026 Q3 earnings call · 2026 CAPEX 约 $190B</a>
+        <a href="https://investor.atmeta.com/" target="_blank" rel="noopener">Meta Investor Relations · CAPEX 指引</a>
+        <a href="https://abc.xyz/investor/" target="_blank" rel="noopener">Alphabet Investor Relations · 财报与 CAPEX 指引</a>
+        <a href="https://ir.aboutamazon.com/" target="_blank" rel="noopener">Amazon Investor Relations · AWS 与资本开支</a>
+        <a href="https://www.mediaoffice.abudhabi/en/technology/global-tech-alliance-launches-stargate-uae/" target="_blank" rel="noopener">Abu Dhabi Media Office · 5GW UAE–US AI Campus</a>
+        <a href="https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/hrh-crown-prince-launches-humain-as-global-ai-powerhouse/" target="_blank" rel="noopener">Saudi PIF · HUMAIN 发布</a>
+        <a href="https://www.sec.gov/news/studies/tradrep.htm" target="_blank" rel="noopener">U.S. SEC · 1997 年市场调整研究</a>
+        <a href="https://www.cninfo.com.cn/" target="_blank" rel="noopener">巨潮资讯 · A 股公司法定披露</a>
+        <a href="https://www.hkexnews.hk/" target="_blank" rel="noopener">HKEXnews · 阿里巴巴披露</a>
+        <a href="https://stockanalysis.com/quote/hkg/9988/" target="_blank" rel="noopener">StockAnalysis · 阿里巴巴估值参考</a>
+        <a href="https://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/lastest/rptid/831321832102/index.phtml" target="_blank" rel="noopener">招商证券 · 胜宏科技 2026Q1 点评与 2026–2028 盈利预测</a>
+        <a href="https://pdf.dfcfw.com/pdf/H3_AP202605051821967965_1.pdf" target="_blank" rel="noopener">国金证券 · 意华股份：汇兑短期承压，连接器带来增量</a>
+        <a href="https://basic.10jqka.com.cn/002897/worth.html" target="_blank" rel="noopener">同花顺机构预测汇总 · 意华股份 2026E</a>
+        <a href="https://finance.sina.com.cn/wm/2026-07-17/doc-iniiccuy4212312.shtml" target="_blank" rel="noopener">高盛 · 中际旭创盈利预测与目标价上调</a>
+        <a href="https://basic.10jqka.com.cn/144/300502/worth.html" target="_blank" rel="noopener">境内外机构预测汇总 · 新易盛 2026E</a>
+        <a href="https://basic.10jqka.com.cn/002463/worth.html" target="_blank" rel="noopener">机构预测汇总 · 沪电股份 2026E</a>
+        <a href="https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/830875524844/index.phtml" target="_blank" rel="noopener">中金公司 · 北方华创 2026–2027 盈利与估值</a>
+        <a href="https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-05-22/doc-inhyvhua5792330.shtml" target="_blank" rel="noopener">高盛 · 北方华创目标估值框架</a>
+        <a href="https://basic.10jqka.com.cn/144/688120/worth.html" target="_blank" rel="noopener">境内外机构预测汇总 · 华海清科 2026E</a>
+        <a href="https://basic.10jqka.com.cn/300054/worth.html" target="_blank" rel="noopener">机构预测汇总 · 鼎龙股份 2026E</a>
+        <a href="https://news.10jqka.com.cn/20260509/c676559761.shtml" target="_blank" rel="noopener">国泰海通等 · 雅克科技盈利与目标价区间</a>
+        <a href="https://emweb.eastmoney.com/PC_HSF10/ResearchReport/Index?code=SZ000977&type=web" target="_blank" rel="noopener">机构研报汇总 · 浪潮信息 Q2 业绩预告</a>
+        <a href="https://stockanalysis.com/stocks/baba/forecast/" target="_blank" rel="noopener">海外机构一致预期 · Alibaba 目标价与估值</a>
+      </div></div>
+    </div></section>
+  </main>
+  <footer><div class="wrap footer-grid"><div class="disclaimer">本页面仅作研究框架与信息展示，不构成任何证券买卖建议。历史类比不代表未来结果；预测值会随财报、汇率、股价和一致预期变化。投资者应独立核验原始公告并自行承担风险。</div><div>AI CYCLE LAB · V1.0</div></div></footer>
+  <script>
+    const stocks=[
+      {n:"中际旭创",c:"300308.SZ",s:"光模块",pe:32,temp:"合理",anchor:"内 25–35×｜外 20–30×(27E)",q:[32,36,38],a:2,score:91,r:"推荐",note:"硅光+scale-up，外资盈利大幅上修"},
+      {n:"新易盛",c:"300502.SZ",s:"光模块",pe:30,temp:"合理",anchor:"内 25–32×｜外 30–42×",q:[28,31,29],a:-2,score:86,r:"推荐",note:"1.6T/LPO放量，盈利仍快于估值"},
+      {n:"胜宏科技",c:"300476.SZ",s:"PCB",pe:42,temp:"偏热",anchor:"内 26–39×｜外 约24×(26–27E)",q:[35,38,42],a:4,score:86,r:"推荐",note:"Rubin/ASIC+海外扩产，单季利润加速"},
+      {n:"沪电股份",c:"002463.SZ",s:"PCB",pe:28,temp:"合理",anchor:"内 22–30×｜外 同业25–30×",q:[18,22,20],a:-2,score:83,r:"推荐",note:"1.6T交换机/TPU板，产能二季度释放"},
+      {n:"北方华创",c:"002371.SZ",s:"半导体设备",pe:56,temp:"偏热",anchor:"内 45–52×｜外 44.5×(27E)",q:[8,16,18],a:2,score:72,r:"观察",note:"订单强但研发前置，估值容错率下降"},
+      {n:"华海清科",c:"688120.SH",s:"半导体设备",pe:52,temp:"偏热",anchor:"内 44×｜外 65×",q:[20,24,22],a:-2,score:70,r:"观察",note:"平台化兑现，收入确认节奏仍波动"},
+      {n:"鼎龙股份",c:"300054.SZ",s:"材料",pe:48,temp:"偏热",anchor:"内 45–50×｜外 材料同业40–55×",q:[27,18,16],a:-2,score:76,r:"推荐",note:"CMP垫/液/胶平台化，Q1高增确认"},
+      {n:"安集科技",c:"688019.SH",s:"材料",pe:42,temp:"合理",anchor:"内 38–45×｜外 材料同业40–55×",q:[16,20,18],a:-2,score:80,r:"推荐",note:"抛光液与清洗液扩品类，国产份额提升"},
+      {n:"雅克科技",c:"002409.SZ",s:"材料",pe:65,temp:"过热",anchor:"内 35–45×｜外同业45–55×",q:[18,24,22],a:-2,score:61,r:"观察",note:"HBM前驱体强，近期涨幅透支部分预期"},
+      {n:"浪潮信息",c:"000977.SZ",s:"服务器",pe:22,temp:"偏低",anchor:"内 22–28×｜外服务器同业18–25×",q:[270,-5,18],a:23,score:88,r:"推荐",note:"Q2预告大超预期，低基数后看利润率"},
+      {n:"意华股份",c:"002897.SZ",s:"服务器",pe:34,temp:"偏热",anchor:"内 26–30×｜外连接器同业25–35×",q:[65,40,28],a:-12,score:82,r:"推荐",note:"Q1汇兑低基数，算力连接器驱动修复"},
+      {n:"阿里巴巴",c:"9988.HK",s:"服务器",pe:16,temp:"偏低",anchor:"内 10×电商+6–8×PS云｜外 13–18×",q:[8,12,15],a:3,score:90,r:"推荐",note:"云外部收入约40%增长，估值仍折价"}
+    ];
+    const tickerData=[["四大云 CAPEX","$695–725B","up"],["周期位置","扩张后段","warn"],["创新高情景","55%","up"],["阿里 2026E PE","16×","up"],["光模块","景气 / 拥挤","warn"],["半导体设备","订单稳健","up"]];
+    document.getElementById("ticker").innerHTML=[...tickerData,...tickerData].map(x=>`<div class="tick"><b>${x[0]}</b><span class="${x[2]}">${x[1]}</span></div>`).join("");
+    function render(filter="all"){document.getElementById("stockRows").innerHTML=stocks.filter(x=>filter==="all"||x.s===filter||(filter==="服务器"&&x.s==="服务器")).map(x=>{const cls=x.r==="推荐"?"rec":x.r==="观察"?"watch":"avoid";const aq=x.a>0?`<span class="delta up">+${x.a}ppt</span>`:`<span class="delta down">${x.a}ppt</span>`;return `<tr><td class="company"><b>${x.n}</b><span>${x.c} · ${x.s}</span></td><td class="pe">${x.pe}×</td><td class="dim">${x.temp}</td><td class="dim">${x.anchor}</td><td>${x.q.map((v,i)=>`<span class="${i===2?"up":""}">${v>0?"+":""}${v}%</span>`).join(" → ")}</td><td>${aq}</td><td><div class="momentum"><i style="width:${x.score}%"></i></div><span class="dim">${x.score}</span></td><td><span class="tag ${cls}">${x.r}</span></td><td class="dim">${x.note}</td></tr>`}).join("")}
+    render();
+    document.getElementById("filters").onclick=e=>{if(e.target.tagName!=="BUTTON")return;document.querySelectorAll("#filters button").forEach(b=>b.classList.remove("active"));e.target.classList.add("active");render(e.target.dataset.filter)};
+    function lineChart(id,series,years){const c=document.getElementById(id),dpr=devicePixelRatio||1,rect=c.getBoundingClientRect();c.width=rect.width*dpr;c.height=rect.height*dpr;const x=c.getContext("2d");x.scale(dpr,dpr);const w=rect.width,h=rect.height,p={l:38,r:12,t:14,b:30};const vals=series.flatMap(s=>s.v),max=Math.ceil(Math.max(...vals)/50)*50;x.font="10px monospace";x.strokeStyle="#20354a";x.fillStyle="#70889e";x.lineWidth=1;for(let i=0;i<5;i++){let y=p.t+(h-p.t-p.b)*i/4;x.beginPath();x.moveTo(p.l,y);x.lineTo(w-p.r,y);x.stroke();x.fillText(Math.round(max*(1-i/4)),2,y+3)}years.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1);x.fillText(v,xx-12,h-8)});series.forEach(s=>{x.strokeStyle=s.color;x.lineWidth=2.2;x.beginPath();s.v.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1),yy=p.t+(h-p.t-p.b)*(1-v/max);i?x.lineTo(xx,yy):x.moveTo(xx,yy)});x.stroke();s.v.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1),yy=p.t+(h-p.t-p.b)*(1-v/max);x.fillStyle=s.color;x.beginPath();x.arc(xx,yy,3,0,Math.PI*2);x.fill()})})}
+    function draw(){lineChart("hyperscalerChart",[{color:"#31d7d0",v:[48,77,103,118,200,235]},{color:"#63a9ff",v:[28,44,56,88,190,205]},{color:"#f5ad42",v:[25,32,53,91,200,230]},{color:"#9b87f5",v:[32,28,39,72,135,155]}],["2022","2023","2024","2025E","2026E","2027E"]);lineChart("sovereignChart",[{color:"#31d7d0",v:[0,6,22,45,70]},{color:"#f5ad42",v:[1,5,14,26,42]},{color:"#63a9ff",v:[0,4,12,24,38]},{color:"#9b87f5",v:[1,7,16,25,35]}],["2024","2025","2026E","2027E","2028E"])}
+    draw();let rt;addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(draw,120)});
+  </script>
 </body>
 </html>
