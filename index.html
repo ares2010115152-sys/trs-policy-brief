@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#07111f">
   <meta name="description" content="AI 科技行情周期仪表盘：CAPEX、泡沫类比与中国 AI 产业链二阶动量。">
-  <meta name="build" content="ai-cycle-dashboard-v1.1-20260729">
+  <meta name="build" content="ai-cycle-dashboard-v1.2-20260815">
   <meta property="og:title" content="AI 科技周期仪表盘">
   <meta property="og:description" content="CAPEX × 泡沫类比 × AI产业链">
   <meta property="og:image" content="assets/og.png">
@@ -30,25 +30,25 @@
   </style>
 </head>
 <body>
-  <header class="topbar"><div class="wrap"><div class="brand"><i></i>AI CYCLE LAB</div><nav class="nav"><a href="#capex">CAPEX</a><a href="#analogy">泡沫类比</a><a href="#chain">AI产业链</a><a href="#lastwave">最后一浪</a><a href="#method">方法</a></nav><span class="live">DATA · 2026.07.29</span></div></header>
+  <header class="topbar"><div class="wrap"><div class="brand"><i></i>AI CYCLE LAB</div><nav class="nav"><a href="#capex">CAPEX</a><a href="#analogy">泡沫类比</a><a href="#chain">AI产业链</a><a href="#lastwave">最后一浪</a><a href="#method">方法</a></nav><span class="live">DATA · 2026.08.15</span></div></header>
   <main>
     <div class="hero"><div class="wrap hero-grid">
-      <div><div class="eyebrow">AI investment cycle / China supply chain</div><h1>AI 科技<br><span>周期仪表盘</span></h1><p class="dek">当 CAPEX 仍在加速、估值开始分化，剧烈调整更像周期中段的“回报率审判”，还是泡沫终点？从资金曲线、历史样本与盈利二阶导寻找答案。</p><div class="hero-meta"><span>更新 <b>2026.07.29</b></span><span>覆盖 <b>12 家核心公司</b></span><span>频率 <b>季度</b></span></div></div>
+      <div><div class="eyebrow">AI investment cycle / China supply chain</div><h1>AI 科技<br><span>周期仪表盘</span></h1><p class="dek">当 CAPEX 仍在加速、估值开始分化，剧烈调整更像周期中段的“回报率审判”，还是泡沫终点？从资金曲线、历史样本与盈利二阶导寻找答案。</p><div class="hero-meta"><span>更新 <b>2026.08.15</b></span><span>覆盖 <b>12 家核心公司</b></span><span>频率 <b>季度</b></span></div></div>
       <aside class="cycle-card"><div class="kicker">CURRENT REGIME</div><div class="gauge"></div><div class="big">68 / 100</div><div class="label">扩张后段 · 高波动 · 尚未确认反转</div><div class="mini-grid"><div class="mini"><b>↑</b><span>CAPEX 斜率</span></div><div class="mini"><b>↓</b><span>估值分位</span></div><div class="mini"><b>分化</b><span>盈利动量</span></div></div></aside>
     </div></div>
     <div class="ticker"><div class="ticker-track" id="ticker"></div></div>
 
     <section id="capex"><div class="wrap">
-      <div class="section-head"><div class="num">01 / 04</div><h2>CAPEX：订单的<br>第一性来源</h2><p class="section-intro">2026 年四大云厂商资本开支指引合计约 695–7250 亿美元。市场的关键问题已经从“会不会投”切换为“资本回报率能否跟上折旧”。</p></div>
+      <div class="section-head"><div class="num">01 / 05</div><h2>CAPEX：订单的<br>第一性来源</h2><p class="section-intro">2026 年四大云厂商资本开支最新指引合计约 7400–7550 亿美元。市场的关键问题已经从“会不会投”切换为“资本回报率能否跟上折旧”。</p></div>
       <div class="grid-2">
         <article class="panel"><div class="panel-head"><div><div class="kicker">USD BILLION · CALENDAR YEAR</div><h3>核心云厂商资本开支曲线</h3></div><span class="badge">2026E</span></div><canvas class="chart" id="hyperscalerChart"></canvas><div class="legend"><span><i style="background:#31d7d0"></i>Amazon</span><span><i style="background:#63a9ff"></i>Microsoft</span><span><i style="background:#f5ad42"></i>Alphabet</span><span><i style="background:#9b87f5"></i>Meta</span></div><p class="callout"><b>核心判断：</b> 2026E 仍在上修，但进入基数与融资约束共同抬升的阶段；对上游而言，绝对额比同比增速更重要。</p></article>
         <article class="panel"><div class="panel-head"><div><div class="kicker">MODELLED COMMITMENTS · USD BN</div><h3>主权 / 准主权 AI 资金曲线</h3></div><span class="badge">情景估算</span></div><canvas class="chart" id="sovereignChart"></canvas><div class="legend"><span><i style="background:#31d7d0"></i>Stargate US / MGX</span><span><i style="background:#f5ad42"></i>UAE / G42</span><span><i style="background:#63a9ff"></i>Saudi / HUMAIN</span><span><i style="background:#9b87f5"></i>Europe / France</span></div><p class="callout"><b>注意口径：</b> 项目承诺额并非当期会计 CAPEX。曲线按公开产能里程碑与承诺总额做节奏化拆分，用于观察需求方向，不用于精确预测。</p></article>
       </div>
-      <div class="capex-cards"><div class="capex-card"><span>AMAZON 2026E</span><b>$200B</b><em>AI / AWS 主导</em></div><div class="capex-card"><span>MICROSOFT 2026E</span><b>$190B</b><em>含融资租赁</em></div><div class="capex-card"><span>ALPHABET 2026E</span><b>$195–205B</b><em>最新区间</em></div><div class="capex-card"><span>META 2026E</span><b>$125–145B</b><em>区间上修</em></div><div class="capex-card"><span>UAE CAMPUS</span><b>5 GW</b><em>首期 200MW</em></div></div>
+      <div class="capex-cards"><div class="capex-card"><span>AMAZON 2026E</span><b>$220B</b><em>Q2 后上调 10%</em></div><div class="capex-card"><span>MICROSOFT 2026E</span><b>≈$190B</b><em>含融资租赁</em></div><div class="capex-card"><span>ALPHABET 2026E</span><b>$195–205B</b><em>最新区间</em></div><div class="capex-card"><span>META 2026E</span><b>$130–145B</b><em>下限再上修</em></div><div class="capex-card"><span>UAE CAMPUS</span><b>5 GW</b><em>首期 200MW</em></div></div>
     </div></section>
 
     <section id="analogy"><div class="wrap">
-      <div class="section-head"><div class="num">02 / 04</div><h2>这次调整，<br>历史上像什么？</h2><p class="section-intro">单纯看跌幅容易误判。更重要的是同时观察：终端收入是否加速、龙头是否有现金流、供给是否出现重复建设，以及信用利差是否持续恶化。</p></div>
+      <div class="section-head"><div class="num">02 / 05</div><h2>这次调整，<br>历史上像什么？</h2><p class="section-intro">单纯看跌幅容易误判。更重要的是同时观察：终端收入是否加速、龙头是否有现金流、供给是否出现重复建设，以及信用利差是否持续恶化。</p></div>
       <div class="analogy-grid">
         <article class="panel"><div class="panel-head"><div><div class="kicker">HISTORICAL ANALOGUES</div><h3>技术浪潮中的“中途急跌”</h3></div></div><div class="timeline">
           <div class="era"><div class="year">1997.10</div><h4>亚洲金融冲击</h4><p>外生流动性事件，科技趋势未破坏；随后纳指继续进入主升段。</p><div class="draw">−7.2%</div></div>
@@ -57,32 +57,32 @@
           <div class="era"><div class="year">2022</div><h4>云计算估值出清</h4><p>加息与疫情红利回吐，现金流龙头先于长久期资产完成修复。</p><div class="draw">−36%</div></div>
         </div><div class="warning-box">当前更接近 <b>1998 去杠杆 × 2022 估值出清</b> 的混合态，而不是已确认的 2000 年终局；但若 CAPEX 下修、云收入减速、信用压力三项同时出现，类比将迅速转向 2000。</div></article>
         <article class="panel"><div class="panel-head"><div><div class="kicker">12–18 MONTH SCENARIOS</div><h3>创新高路径概率</h3></div></div>
-          <div class="scenario"><div class="prob" style="--p:55%"><b>55%</b></div><div><h4>盈利消化后再创新高</h4><p>CAPEX 绝对额维持，云收入兑现，二阶动量先降后稳。</p></div></div>
-          <div class="scenario"><div class="prob" style="--p:27%;background:conic-gradient(var(--amber) var(--p),#17283a 0)"><b>27%</b></div><div><h4>高位宽幅震荡</h4><p>订单强但估值受折旧、融资成本与竞争压制。</p></div></div>
-          <div class="scenario"><div class="prob" style="--p:18%;background:conic-gradient(var(--red) var(--p),#17283a 0)"><b>18%</b></div><div><h4>泡沫终局 / 深度出清</h4><p>超预期 CAPEX 下修叠加 AI 收入回报不足与信用事件。</p></div></div>
+          <div class="scenario"><div class="prob" style="--p:60%"><b>60%</b></div><div><h4>盈利消化后再创新高</h4><p>Amazon、Meta继续上修CAPEX，云收入兑现，产业总量信号较7月底改善。</p></div></div>
+          <div class="scenario"><div class="prob" style="--p:25%;background:conic-gradient(var(--amber) var(--p),#17283a 0)"><b>25%</b></div><div><h4>高位宽幅震荡</h4><p>订单强但估值受折旧、融资成本与竞争压制。</p></div></div>
+          <div class="scenario"><div class="prob" style="--p:15%;background:conic-gradient(var(--red) var(--p),#17283a 0)"><b>15%</b></div><div><h4>泡沫终局 / 深度出清</h4><p>超预期 CAPEX 下修叠加 AI 收入回报不足与信用事件。</p></div></div>
           <p class="dim">概率为条件化情景权重，不是统计学保证。每季随 CAPEX、云收入、盈利预期和信用利差更新。</p>
         </article>
       </div>
     </div></section>
 
     <section id="chain"><div class="wrap">
-      <div class="section-head"><div class="num">03 / 04</div><h2>AI 链：估值 ×<br>盈利二阶导</h2><p class="section-intro">“增速高”不等于“值得买”。模型同时看 2026E 估值、未来三季环比增速，以及环比增速的变化方向（即二阶导）。新易盛在原名单中重复出现，此处已去重。</p></div>
+      <div class="section-head"><div class="num">03 / 05</div><h2>AI 链：估值 ×<br>盈利二阶导</h2><p class="section-intro">“增速高”不等于“值得买”。模型同时看最新价格、TTM与2026E估值、未来三季环比增速，以及环比增速的变化方向（即二阶导）。</p></div>
       <div class="controls" id="filters"><button class="active" data-filter="all">全部 12 家</button><button data-filter="光模块">光模块</button><button data-filter="PCB">PCB</button><button data-filter="半导体设备">半导体设备</button><button data-filter="材料">材料</button><button data-filter="服务器">服务器 / 云</button></div>
-      <div class="table-wrap"><table><thead><tr><th>公司 / 环节</th><th>2026E PE</th><th>估值温度</th><th>内资 / 外资估值锚</th><th>未来三季净利环比</th><th>二阶导</th><th>模型分</th><th>结论</th><th>核心观察</th></tr></thead><tbody id="stockRows"></tbody></table></div>
-      <p class="dim" style="margin-top:14px">注：PE 与盈利序列为基于公开一致预期、公司公告及行业景气度形成的 2026-07-29 指示性快照，并非实时行情。季度环比并非券商直接披露值，而是以券商年度预测为锚、结合已披露单季利润和产能/产品节奏进行拆分。意华股份 Q1 受汇兑损失压低，因此后续环比包含低基数修复；财报空窗期误差可能显著。</p>
+      <div class="table-wrap"><table><thead><tr><th>公司 / 环节</th><th>现价 / TTM PE</th><th>2026E PE</th><th>估值温度</th><th>内资 / 外资估值锚</th><th>未来三季净利环比</th><th>二阶导</th><th>模型分</th><th>结论</th><th>核心观察</th></tr></thead><tbody id="stockRows"></tbody></table></div>
+      <p class="dim" style="margin-top:14px">注：现价与TTM PE为2026-08-14收盘快照（阿里巴巴为港元，其余为人民币）；2026E PE及盈利序列基于公开一致预期、公司公告及行业景气度。季度环比为模型拆分值，并非券商直接披露值。</p>
     </div></section>
 
     <section id="lastwave"><div class="wrap">
       <div class="section-head"><div class="num">04 / 05</div><h2>最后一浪：<br>启动、加速、见顶</h2><p class="section-intro">7 月的深度调整更像高拥挤交易的系统性去杠杆，而非基本面已经反转。若 CAPEX 与盈利预测保持上修，最后一浪最可能在 2026Q4–2027Q1 启动，并在 2027Q2–Q4 进入高风险见顶窗口。</p></div>
       <div class="wave-track">
-        <div class="wave-phase"><small>NOW · 2026.07–09</small><b>恐慌与筑底</b><p>第一次反弹主要来自空头回补；观察盈利预测是否停止下修。</p><div class="probbar"><i style="width:70%"></i></div></div>
+        <div class="wave-phase"><small>NOW · 2026.08–09</small><b>修复与确认</b><p>7月底恐慌后已进入修复；观察放量突破与中报盈利上修能否共振。</p><div class="probbar"><i style="width:75%"></i></div></div>
         <div class="wave-phase"><small>TRIGGER · 2026.09–11</small><b>右侧确认</b><p>龙头重回 60 日线、上涨扩散、三季报兑现，启动概率约 30%。</p><div class="probbar"><i style="width:30%"></i></div></div>
         <div class="wave-phase"><small>MAIN · 2026.12–2027.03</small><b>最后一浪</b><p>CAPEX 未下修且 Rubin/ASIC 放量，主升启动概率约 45%。</p><div class="probbar"><i style="width:45%"></i></div></div>
         <div class="wave-phase"><small>RISK · 2027.Q2–Q4</small><b>见顶窗口</b><p>市场开始交易 2028 供给释放、价格压力与 AI 投资回报率。</p><div class="probbar"><i style="width:70%;background:var(--amber)"></i></div></div>
       </div>
       <div class="portfolio-alert"><strong>100%</strong><p><b>胜宏科技 + 意华股份各半仓并不是两个独立风险。</b> 两者共同暴露于海外 AI CAPEX、服务器升级与高端连接需求，组合实质上是一个高弹性 AI 硬件因子。胜宏更接近“业绩核心仓”，意华更接近“低基数弹性仓”。</p></div>
       <article class="panel">
-        <div class="panel-head"><div><div class="kicker">POSITIONING MAP · INDICATIVE SNAPSHOT</div><h3>从下一浪到顶部：持有角色与筹码弹性</h3></div><span class="badge">2026.07.29</span></div>
+        <div class="panel-head"><div><div class="kicker">POSITIONING MAP · INDICATIVE SNAPSHOT</div><h3>从下一浪到顶部：持有角色与筹码弹性</h3></div><span class="badge">2026.08.15</span></div>
         <div class="table-wrap"><table><thead><tr><th>标的</th><th>机构持仓</th><th>筹码结构</th><th>两融拥挤</th><th>上涨弹性</th><th>启动阶段</th><th>加速阶段</th><th>顶部阶段</th><th>主要风险</th></tr></thead><tbody>
           <tr><td class="company"><b>中际旭创</b><span>光模块龙一</span></td><td>很高</td><td>机构抱团</td><td class="warn">高</td><td class="stars">★★★★☆</td><td><span class="phase-pill core">核心跟随</span></td><td><span class="phase-pill core">持有为主</span></td><td><span class="phase-pill hot">先看盈利背离</span></td><td class="dim">拥挤、CPO路线切换</td></tr>
           <tr><td class="company"><b>新易盛</b><span>高速光模块</span></td><td>很高</td><td>集中度高</td><td class="warn">高</td><td class="stars">★★★★★</td><td><span class="phase-pill core">强势确认后</span></td><td><span class="phase-pill core">弹性主仓</span></td><td><span class="phase-pill hot">缩量新高降弹性</span></td><td class="dim">波动率、产品价格</td></tr>
@@ -109,6 +109,8 @@
         <a href="https://investor.atmeta.com/" target="_blank" rel="noopener">Meta Investor Relations · CAPEX 指引</a>
         <a href="https://abc.xyz/investor/" target="_blank" rel="noopener">Alphabet Investor Relations · 财报与 CAPEX 指引</a>
         <a href="https://ir.aboutamazon.com/" target="_blank" rel="noopener">Amazon Investor Relations · AWS 与资本开支</a>
+        <a href="https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee" target="_blank" rel="noopener">AP · Amazon 将2026资本开支提高至约2200亿美元</a>
+        <a href="https://www.axios.com/2026/07/29/meta-microsoft-earnings-reports-ai" target="_blank" rel="noopener">Axios · Meta与Microsoft最新AI资本开支</a>
         <a href="https://www.mediaoffice.abudhabi/en/technology/global-tech-alliance-launches-stargate-uae/" target="_blank" rel="noopener">Abu Dhabi Media Office · 5GW UAE–US AI Campus</a>
         <a href="https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/hrh-crown-prince-launches-humain-as-global-ai-powerhouse/" target="_blank" rel="noopener">Saudi PIF · HUMAIN 发布</a>
         <a href="https://www.sec.gov/news/studies/tradrep.htm" target="_blank" rel="noopener">U.S. SEC · 1997 年市场调整研究</a>
@@ -138,26 +140,26 @@
   <footer><div class="wrap footer-grid"><div class="disclaimer">本页面仅作研究框架与信息展示，不构成任何证券买卖建议。历史类比不代表未来结果；预测值会随财报、汇率、股价和一致预期变化。投资者应独立核验原始公告并自行承担风险。</div><div>AI CYCLE LAB · V1.0</div></div></footer>
   <script>
     const stocks=[
-      {n:"中际旭创",c:"300308.SZ",s:"光模块",pe:32,temp:"合理",anchor:"内 25–35×｜外 20–30×(27E)",q:[32,36,38],a:2,score:91,r:"推荐",note:"硅光+scale-up，外资盈利大幅上修"},
-      {n:"新易盛",c:"300502.SZ",s:"光模块",pe:30,temp:"合理",anchor:"内 25–32×｜外 30–42×",q:[28,31,29],a:-2,score:86,r:"推荐",note:"1.6T/LPO放量，盈利仍快于估值"},
-      {n:"胜宏科技",c:"300476.SZ",s:"PCB",pe:42,temp:"偏热",anchor:"内 26–39×｜外 约24×(26–27E)",q:[35,38,42],a:4,score:86,r:"推荐",note:"Rubin/ASIC+海外扩产，单季利润加速"},
-      {n:"沪电股份",c:"002463.SZ",s:"PCB",pe:28,temp:"合理",anchor:"内 22–30×｜外 同业25–30×",q:[18,22,20],a:-2,score:83,r:"推荐",note:"1.6T交换机/TPU板，产能二季度释放"},
-      {n:"北方华创",c:"002371.SZ",s:"半导体设备",pe:56,temp:"偏热",anchor:"内 45–52×｜外 44.5×(27E)",q:[8,16,18],a:2,score:72,r:"观察",note:"订单强但研发前置，估值容错率下降"},
-      {n:"华海清科",c:"688120.SH",s:"半导体设备",pe:52,temp:"偏热",anchor:"内 44×｜外 65×",q:[20,24,22],a:-2,score:70,r:"观察",note:"平台化兑现，收入确认节奏仍波动"},
-      {n:"鼎龙股份",c:"300054.SZ",s:"材料",pe:48,temp:"偏热",anchor:"内 45–50×｜外 材料同业40–55×",q:[27,18,16],a:-2,score:76,r:"推荐",note:"CMP垫/液/胶平台化，Q1高增确认"},
-      {n:"安集科技",c:"688019.SH",s:"材料",pe:42,temp:"合理",anchor:"内 38–45×｜外 材料同业40–55×",q:[16,20,18],a:-2,score:80,r:"推荐",note:"抛光液与清洗液扩品类，国产份额提升"},
-      {n:"雅克科技",c:"002409.SZ",s:"材料",pe:65,temp:"过热",anchor:"内 35–45×｜外同业45–55×",q:[18,24,22],a:-2,score:61,r:"观察",note:"HBM前驱体强，近期涨幅透支部分预期"},
-      {n:"浪潮信息",c:"000977.SZ",s:"服务器",pe:22,temp:"偏低",anchor:"内 22–28×｜外服务器同业18–25×",q:[270,-5,18],a:23,score:88,r:"推荐",note:"Q2预告大超预期，低基数后看利润率"},
-      {n:"意华股份",c:"002897.SZ",s:"服务器",pe:34,temp:"偏热",anchor:"内 26–30×｜外连接器同业25–35×",q:[65,40,28],a:-12,score:82,r:"推荐",note:"Q1汇兑低基数，算力连接器驱动修复"},
-      {n:"阿里巴巴",c:"9988.HK",s:"服务器",pe:16,temp:"偏低",anchor:"内 10×电商+6–8×PS云｜外 13–18×",q:[8,12,15],a:3,score:90,r:"推荐",note:"云外部收入约40%增长，估值仍折价"}
+      {n:"中际旭创",c:"300308.SZ",s:"光模块",px:"¥943.00",ttm:48.09,pe:27,temp:"合理",anchor:"内 25–35×｜外 35.8×(27E)",q:[32,36,38],a:2,score:92,r:"推荐",note:"外资上修26E净利至332–384亿"},
+      {n:"新易盛",c:"300502.SZ",s:"光模块",px:"¥448.08",ttm:56.18,pe:24,temp:"合理",anchor:"内 24–33×｜外 约30×",q:[47,31,29],a:-2,score:89,r:"推荐",note:"Q2净利中值47.2亿，全年预期179–219亿"},
+      {n:"胜宏科技",c:"300476.SZ",s:"PCB",px:"¥269.33",ttm:51.36,pe:25,temp:"合理",anchor:"内 24–30×｜外 约24×(26–27E)",q:[35,38,42],a:4,score:90,r:"推荐",note:"2026E净利机构高位预测约111亿"},
+      {n:"沪电股份",c:"002463.SZ",s:"PCB",px:"¥121.27",ttm:46.97,pe:29,temp:"合理",anchor:"内 22–30×｜外同业25–30×",q:[18,22,20],a:-2,score:82,r:"推荐",note:"估值回升，继续等待高阶产能兑现"},
+      {n:"北方华创",c:"002371.SZ",s:"半导体设备",px:"¥738.66",ttm:81.98,pe:55,temp:"偏热",anchor:"内 45–52×｜外 44.5×(27E)",q:[8,16,18],a:2,score:68,r:"观察",note:"订单强，TTM估值已反映较多乐观预期"},
+      {n:"华海清科",c:"688120.SH",s:"半导体设备",px:"¥263.42",ttm:132.16,pe:52,temp:"过热",anchor:"内 44×｜外 65×",q:[20,24,22],a:-2,score:61,r:"观察",note:"TTM估值最高，依赖新品与收入确认"},
+      {n:"鼎龙股份",c:"300054.SZ",s:"材料",px:"¥76.14",ttm:72.40,pe:47,temp:"偏热",anchor:"内 45–50×｜外材料同业40–55×",q:[27,18,16],a:-2,score:74,r:"观察",note:"材料平台化确认，估值安全垫收窄"},
+      {n:"安集科技",c:"688019.SH",s:"材料",px:"¥248.20",ttm:68.23,pe:38,temp:"合理",anchor:"内 38–45×｜野村目标¥360",q:[16,20,18],a:-2,score:81,r:"推荐",note:"26E净利一致预期约10.45亿"},
+      {n:"雅克科技",c:"002409.SZ",s:"材料",px:"¥151.22",ttm:67.47,pe:50,temp:"偏热",anchor:"内 35–45×｜外同业45–55×",q:[18,24,22],a:-2,score:66,r:"观察",note:"HBM逻辑强，估值仍需业绩消化"},
+      {n:"浪潮信息",c:"000977.SZ",s:"服务器",px:"¥78.80",ttm:47.83,pe:23,temp:"合理",anchor:"内 22–28×｜外服务器同业18–25×",q:[270,-5,18],a:23,score:86,r:"推荐",note:"半年报预告超预期，关注毛利率持续性"},
+      {n:"意华股份",c:"002897.SZ",s:"服务器",px:"¥59.98",ttm:72.19,pe:28,temp:"合理",anchor:"内 26–30×｜外连接器同业25–35×",q:[65,40,28],a:-12,score:84,r:"推荐",note:"低基数修复仍在，弹性与波动均高"},
+      {n:"阿里巴巴",c:"9988.HK",s:"服务器",px:"HK$119.90",ttm:19.60,pe:17,temp:"偏低",anchor:"内 10×电商+6–8×PS云｜外13–18×",q:[8,12,15],a:3,score:87,r:"推荐",note:"云增长强，但即时零售投入压制短期利润"}
     ];
-    const tickerData=[["四大云 CAPEX","$695–725B","up"],["周期位置","扩张后段","warn"],["创新高情景","55%","up"],["阿里 2026E PE","16×","up"],["光模块","景气 / 拥挤","warn"],["半导体设备","订单稳健","up"]];
+    const tickerData=[["四大云 CAPEX","$740–755B","up"],["周期位置","扩张后段","warn"],["创新高情景","60%","up"],["Amazon CAPEX","$220B","up"],["光模块","景气 / 拥挤","warn"],["半导体设备","高估值分化","warn"]];
     document.getElementById("ticker").innerHTML=[...tickerData,...tickerData].map(x=>`<div class="tick"><b>${x[0]}</b><span class="${x[2]}">${x[1]}</span></div>`).join("");
-    function render(filter="all"){document.getElementById("stockRows").innerHTML=stocks.filter(x=>filter==="all"||x.s===filter||(filter==="服务器"&&x.s==="服务器")).map(x=>{const cls=x.r==="推荐"?"rec":x.r==="观察"?"watch":"avoid";const aq=x.a>0?`<span class="delta up">+${x.a}ppt</span>`:`<span class="delta down">${x.a}ppt</span>`;return `<tr><td class="company"><b>${x.n}</b><span>${x.c} · ${x.s}</span></td><td class="pe">${x.pe}×</td><td class="dim">${x.temp}</td><td class="dim">${x.anchor}</td><td>${x.q.map((v,i)=>`<span class="${i===2?"up":""}">${v>0?"+":""}${v}%</span>`).join(" → ")}</td><td>${aq}</td><td><div class="momentum"><i style="width:${x.score}%"></i></div><span class="dim">${x.score}</span></td><td><span class="tag ${cls}">${x.r}</span></td><td class="dim">${x.note}</td></tr>`}).join("")}
+    function render(filter="all"){document.getElementById("stockRows").innerHTML=stocks.filter(x=>filter==="all"||x.s===filter||(filter==="服务器"&&x.s==="服务器")).map(x=>{const cls=x.r==="推荐"?"rec":x.r==="观察"?"watch":"avoid";const aq=x.a>0?`<span class="delta up">+${x.a}ppt</span>`:`<span class="delta down">${x.a}ppt</span>`;return `<tr><td class="company"><b>${x.n}</b><span>${x.c} · ${x.s}</span></td><td><b>${x.px}</b><br><span class="dim">${x.ttm}× TTM</span></td><td class="pe">${x.pe}×</td><td class="dim">${x.temp}</td><td class="dim">${x.anchor}</td><td>${x.q.map((v,i)=>`<span class="${i===2?"up":""}">${v>0?"+":""}${v}%</span>`).join(" → ")}</td><td>${aq}</td><td><div class="momentum"><i style="width:${x.score}%"></i></div><span class="dim">${x.score}</span></td><td><span class="tag ${cls}">${x.r}</span></td><td class="dim">${x.note}</td></tr>`}).join("")}
     render();
     document.getElementById("filters").onclick=e=>{if(e.target.tagName!=="BUTTON")return;document.querySelectorAll("#filters button").forEach(b=>b.classList.remove("active"));e.target.classList.add("active");render(e.target.dataset.filter)};
     function lineChart(id,series,years){const c=document.getElementById(id),dpr=devicePixelRatio||1,rect=c.getBoundingClientRect();c.width=rect.width*dpr;c.height=rect.height*dpr;const x=c.getContext("2d");x.scale(dpr,dpr);const w=rect.width,h=rect.height,p={l:38,r:12,t:14,b:30};const vals=series.flatMap(s=>s.v),max=Math.ceil(Math.max(...vals)/50)*50;x.font="10px monospace";x.strokeStyle="#20354a";x.fillStyle="#70889e";x.lineWidth=1;for(let i=0;i<5;i++){let y=p.t+(h-p.t-p.b)*i/4;x.beginPath();x.moveTo(p.l,y);x.lineTo(w-p.r,y);x.stroke();x.fillText(Math.round(max*(1-i/4)),2,y+3)}years.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1);x.fillText(v,xx-12,h-8)});series.forEach(s=>{x.strokeStyle=s.color;x.lineWidth=2.2;x.beginPath();s.v.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1),yy=p.t+(h-p.t-p.b)*(1-v/max);i?x.lineTo(xx,yy):x.moveTo(xx,yy)});x.stroke();s.v.forEach((v,i)=>{const xx=p.l+(w-p.l-p.r)*i/(years.length-1),yy=p.t+(h-p.t-p.b)*(1-v/max);x.fillStyle=s.color;x.beginPath();x.arc(xx,yy,3,0,Math.PI*2);x.fill()})})}
-    function draw(){lineChart("hyperscalerChart",[{color:"#31d7d0",v:[48,77,103,118,200,235]},{color:"#63a9ff",v:[28,44,56,88,190,205]},{color:"#f5ad42",v:[25,32,53,91,200,230]},{color:"#9b87f5",v:[32,28,39,72,135,155]}],["2022","2023","2024","2025E","2026E","2027E"]);lineChart("sovereignChart",[{color:"#31d7d0",v:[0,6,22,45,70]},{color:"#f5ad42",v:[1,5,14,26,42]},{color:"#63a9ff",v:[0,4,12,24,38]},{color:"#9b87f5",v:[1,7,16,25,35]}],["2024","2025","2026E","2027E","2028E"])}
+    function draw(){lineChart("hyperscalerChart",[{color:"#31d7d0",v:[48,77,103,128,220,250]},{color:"#63a9ff",v:[28,44,56,88,190,210]},{color:"#f5ad42",v:[25,32,53,91,200,230]},{color:"#9b87f5",v:[32,28,39,72,138,160]}],["2022","2023","2024","2025E","2026E","2027E"]);lineChart("sovereignChart",[{color:"#31d7d0",v:[0,6,22,45,70]},{color:"#f5ad42",v:[1,5,14,26,42]},{color:"#63a9ff",v:[0,4,12,24,38]},{color:"#9b87f5",v:[1,7,16,25,35]}],["2024","2025","2026E","2027E","2028E"])}
     draw();let rt;addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(draw,120)});
   </script>
 </body>
