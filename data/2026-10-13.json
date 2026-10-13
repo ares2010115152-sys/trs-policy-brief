@@ -1,0 +1,1612 @@
+{
+  "reviewDate": "2026-10-13",
+  "quotes": [
+    {
+      "f2": 740.09,
+      "f3": 2.16,
+      "f9": 31.93,
+      "f12": "300308",
+      "f14": "中际旭创",
+      "f20": 871759146208,
+      "f21": 821453276550,
+      "f124": 1791870525
+    },
+    {
+      "f2": 354.52,
+      "f3": 1.99,
+      "f9": 32.84,
+      "f12": "300502",
+      "f14": "新易盛",
+      "f20": 494462259088,
+      "f21": 444824663141,
+      "f124": 1791870525
+    },
+    {
+      "f2": 201.09,
+      "f3": 2.19,
+      "f9": 34.59,
+      "f12": "300476",
+      "f14": "胜宏科技",
+      "f20": 197628198046,
+      "f21": 173982051490,
+      "f124": 1791870525
+    },
+    {
+      "f2": 116.33,
+      "f3": 6.12,
+      "f9": 38.29,
+      "f12": "002463",
+      "f14": "沪电股份",
+      "f20": 223861210259,
+      "f21": 223685342449,
+      "f124": 1791870525
+    },
+    {
+      "f2": 594.84,
+      "f3": 1.17,
+      "f9": 64.05,
+      "f12": "002371",
+      "f14": "北方华创",
+      "f20": 431668963728,
+      "f21": 431309967676,
+      "f124": 1791870525
+    },
+    {
+      "f2": 235.15,
+      "f3": 2.69,
+      "f9": 103.6,
+      "f12": "688120",
+      "f14": "华海清科",
+      "f20": 116700580146,
+      "f21": 116700580146,
+      "f124": 1791870527
+    },
+    {
+      "f2": 62.92,
+      "f3": 0.75,
+      "f9": 56.73,
+      "f12": "300054",
+      "f14": "鼎龙股份",
+      "f20": 60071137057,
+      "f21": 46845418998,
+      "f124": 1791870525
+    },
+    {
+      "f2": 200.37,
+      "f3": 0.89,
+      "f9": 43.02,
+      "f12": "688019",
+      "f14": "安集科技",
+      "f20": 45755800521,
+      "f21": 45755800521,
+      "f124": 1791870523
+    },
+    {
+      "f2": 108.27,
+      "f3": -0.04,
+      "f9": 45.93,
+      "f12": "002409",
+      "f14": "雅克科技",
+      "f20": 51528689697,
+      "f21": 34486457818,
+      "f124": 1791870525
+    },
+    {
+      "f2": 62.13,
+      "f3": 0.13,
+      "f9": 15.45,
+      "f12": "000977",
+      "f14": "浪潮信息",
+      "f20": 91236454575,
+      "f21": 91139470204,
+      "f124": 1791870525
+    },
+    {
+      "f2": 52.1,
+      "f3": 0.58,
+      "f9": 50.32,
+      "f12": "002897",
+      "f14": "意华股份",
+      "f20": 10100052650,
+      "f21": 9605061595,
+      "f124": 1791870525
+    },
+    {
+      "f2": 107.3,
+      "f3": -0.83,
+      "f9": 25.13,
+      "f12": "09988",
+      "f14": "阿里巴巴-W",
+      "f20": 2135480255852,
+      "f21": 2135480255852,
+      "f124": 1791870524
+    }
+  ],
+  "companies": [
+    {
+      "code": "300308",
+      "financial": [
+        {
+          "SECURITY_CODE": "300308",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-22 00:00:00",
+          "PARENT_NETPROFIT": 13651149693.27,
+          "DEDUCT_PARENT_NETPROFIT": 13091597476.79,
+          "TOTAL_OPERATE_INCOME": 41777861795.03
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-17 00:00:00",
+          "PARENT_NETPROFIT": 5734501526.83,
+          "DEDUCT_PARENT_NETPROFIT": 5717748340.78,
+          "TOTAL_OPERATE_INCOME": 19496398083.95
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-03-31 00:00:00",
+          "PARENT_NETPROFIT": 10797254300.45,
+          "DEDUCT_PARENT_NETPROFIT": 10710053246.51,
+          "TOTAL_OPERATE_INCOME": 38239935640.67
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-31 00:00:00",
+          "PARENT_NETPROFIT": 7131932436.7,
+          "DEDUCT_PARENT_NETPROFIT": 7083699712.66,
+          "TOTAL_OPERATE_INCOME": 25004800851.32
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-22 00:00:00",
+          "PARENT_NETPROFIT": 3995115384.7,
+          "DEDUCT_PARENT_NETPROFIT": 3975381594.87,
+          "TOTAL_OPERATE_INCOME": 14789074837.8
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "300308",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 30774394040,
+          "RZYEZB": 3.82710849,
+          "RZJME5D": -1929393363
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "山东中际投资控股有限公司",
+          "HOLD_RATIO": 10.8892,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 6.575,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "王伟修",
+          "HOLD_RATIO": 6.2526,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "苏州益兴福企业管理中心(有限合伙)",
+          "HOLD_RATIO": 4.1809,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "苏州云昌锦企业管理中心(有限合伙)",
+          "HOLD_RATIO": 2.1393,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "Lumiza Limited",
+          "HOLD_RATIO": 1.3823,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "苏州福睿晖企业管理中心(有限合伙)",
+          "HOLD_RATIO": 0.7314,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "中国工商银行股份有限公司-国泰中证全指通信设备交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.6088,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "章建平",
+          "HOLD_RATIO": 0.5322,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NAME": "中信证券股份有限公司",
+          "HOLD_RATIO": 0.4909,
+          "HOLDER_TYPE": "证券公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "300308",
+          "HOLDER_NUM": 205678,
+          "HOLDER_NUM_RATIO": 33.195611910529,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-22 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "300502",
+      "financial": [
+        {
+          "SECURITY_CODE": "300502",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-25 00:00:00",
+          "PARENT_NETPROFIT": 7529168039.39,
+          "DEDUCT_PARENT_NETPROFIT": 7510738801.54,
+          "TOTAL_OPERATE_INCOME": 20909746962.2
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-24 00:00:00",
+          "PARENT_NETPROFIT": 2780222960.23,
+          "DEDUCT_PARENT_NETPROFIT": 2767975248.13,
+          "TOTAL_OPERATE_INCOME": 8337902040.74
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-24 00:00:00",
+          "PARENT_NETPROFIT": 9531922730.17,
+          "DEDUCT_PARENT_NETPROFIT": 9507308848.08,
+          "TOTAL_OPERATE_INCOME": 24841854840.22
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-30 00:00:00",
+          "PARENT_NETPROFIT": 6327092507.84,
+          "DEDUCT_PARENT_NETPROFIT": 6301361138.7,
+          "TOTAL_OPERATE_INCOME": 16504791211.36
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-25 00:00:00",
+          "PARENT_NETPROFIT": 3942294268.37,
+          "DEDUCT_PARENT_NETPROFIT": 3933899292.57,
+          "TOTAL_OPERATE_INCOME": 10437170265.5
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "300502",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 18951593417,
+          "RZYEZB": 4.34528078,
+          "RZJME5D": -929984015
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 5.7959,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "LO JEFFREY CHIH",
+          "HOLD_RATIO": 2.1216,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "ROMAN SOKOLOV",
+          "HOLD_RATIO": 2.0129,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "黄晓雷",
+          "HOLD_RATIO": 1.7771,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "高光荣",
+          "HOLD_RATIO": 1.5568,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "中国工商银行股份有限公司-国泰中证全指通信设备交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.0876,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "中国工商银行股份有限公司-易方达创业板交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.5541,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "平安资管-招商银行-平安资产开阳5号资产管理产品",
+          "HOLD_RATIO": 0.5208,
+          "HOLDER_TYPE": "集合理财计划",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "中信证券股份有限公司",
+          "HOLD_RATIO": 0.428,
+          "HOLDER_TYPE": "证券公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NAME": "中国建设银行股份有限公司-华安创业板50交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.3624,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "300502",
+          "HOLDER_NUM": 257067,
+          "HOLDER_NUM_RATIO": 65.328093948768,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-25 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "300476",
+      "financial": [
+        {
+          "SECURITY_CODE": "300476",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-28 00:00:00",
+          "PARENT_NETPROFIT": 2856778938.24,
+          "DEDUCT_PARENT_NETPROFIT": 2417800485.07,
+          "TOTAL_OPERATE_INCOME": 11629367290.81
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-29 00:00:00",
+          "PARENT_NETPROFIT": 1288427592.46,
+          "DEDUCT_PARENT_NETPROFIT": 1257223943.14,
+          "TOTAL_OPERATE_INCOME": 5519485066.85
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-03-13 00:00:00",
+          "PARENT_NETPROFIT": 4311988274.4,
+          "DEDUCT_PARENT_NETPROFIT": 4303867824,
+          "TOTAL_OPERATE_INCOME": 19292313457.36
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-28 00:00:00",
+          "PARENT_NETPROFIT": 3244826449.42,
+          "DEDUCT_PARENT_NETPROFIT": 3248027382.51,
+          "TOTAL_OPERATE_INCOME": 14117292798.89
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-28 00:00:00",
+          "PARENT_NETPROFIT": 2143119809.25,
+          "DEDUCT_PARENT_NETPROFIT": 2149171483.32,
+          "TOTAL_OPERATE_INCOME": 9030866364.08
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "300476",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 16140257726,
+          "RZYEZB": 9.48015713,
+          "RZJME5D": -1007463365
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "深圳市胜华欣业投资有限公司",
+          "HOLD_RATIO": 13.7199,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "胜宏科技集团(香港)有限公司",
+          "HOLD_RATIO": 13.3734,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 3.0578,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "惠州市博达兴实业有限公司",
+          "HOLD_RATIO": 0.8666,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "郭超",
+          "HOLD_RATIO": 0.5878,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "招商银行股份有限公司-睿远成长价值混合型证券投资基金",
+          "HOLD_RATIO": 0.555,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "中国工商银行股份有限公司-易方达创业板交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.383,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "魏巍",
+          "HOLD_RATIO": 0.3592,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "交通银行股份有限公司-德邦鑫星价值灵活配置混合型证券投资基金",
+          "HOLD_RATIO": 0.3506,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NAME": "韩军",
+          "HOLD_RATIO": 0.3431,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "300476",
+          "HOLDER_NUM": 268093,
+          "HOLDER_NUM_RATIO": -2.212584668021,
+          "END_DATE": "2026-09-10 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-09-16 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "002463",
+      "financial": [
+        {
+          "SECURITY_CODE": "002463",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 2923361746,
+          "DEDUCT_PARENT_NETPROFIT": 2794525941,
+          "TOTAL_OPERATE_INCOME": 13689427504
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-23 00:00:00",
+          "PARENT_NETPROFIT": 1242081367,
+          "DEDUCT_PARENT_NETPROFIT": 1162681935,
+          "TOTAL_OPERATE_INCOME": 6214156406
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-03-25 00:00:00",
+          "PARENT_NETPROFIT": 3822306272,
+          "DEDUCT_PARENT_NETPROFIT": 3760567906,
+          "TOTAL_OPERATE_INCOME": 18945220585
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-29 00:00:00",
+          "PARENT_NETPROFIT": 2717617995,
+          "DEDUCT_PARENT_NETPROFIT": 2676420260,
+          "TOTAL_OPERATE_INCOME": 13512390231
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 1682780947,
+          "DEDUCT_PARENT_NETPROFIT": 1643812901,
+          "TOTAL_OPERATE_INCOME": 8493871883
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "002463",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 4797265270,
+          "RZYEZB": 2.275926,
+          "RZJME5D": -169450204
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "BIGGERING(BVI)HOLDINGS CO.,LTD.",
+          "HOLD_RATIO": 19.3207,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "WUS GROUP HOLDINGS CO.,LTD.",
+          "HOLD_RATIO": 11.2614,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 8.9553,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "平安银行股份有限公司-永赢科技智选混合型发起式证券投资基金",
+          "HOLD_RATIO": 1.1786,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "HAPPY UNION INVESTMENT LIMITED",
+          "HOLD_RATIO": 1.0295,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "中国工商银行股份有限公司-富国创新科技混合型证券投资基金",
+          "HOLD_RATIO": 0.6626,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "富国基金管理有限公司-社保基金2101组合",
+          "HOLD_RATIO": 0.425,
+          "HOLDER_TYPE": "全国社保基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "全国社保基金一零九组合",
+          "HOLD_RATIO": 0.3826,
+          "HOLDER_TYPE": "全国社保基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "中国工商银行股份有限公司-富国新兴产业股票型证券投资基金",
+          "HOLD_RATIO": 0.3807,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NAME": "中国人寿保险股份有限公司-分红-个人分红-005L-FH002沪",
+          "HOLD_RATIO": 0.3378,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "002463",
+          "HOLDER_NUM": 367113,
+          "HOLDER_NUM_RATIO": 52.368876511287,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-26 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "002371",
+      "financial": [
+        {
+          "SECURITY_CODE": "002371",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 3370020676.75,
+          "DEDUCT_PARENT_NETPROFIT": 3340719149.36,
+          "TOTAL_OPERATE_INCOME": 20161416890.56
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-30 00:00:00",
+          "PARENT_NETPROFIT": 1634739048.68,
+          "DEDUCT_PARENT_NETPROFIT": 1626678172.85,
+          "TOTAL_OPERATE_INCOME": 10322863908.82
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-18 00:00:00",
+          "PARENT_NETPROFIT": 5521993004.86,
+          "DEDUCT_PARENT_NETPROFIT": 5335952532.08,
+          "TOTAL_OPERATE_INCOME": 39353112419.78
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-31 00:00:00",
+          "PARENT_NETPROFIT": 5130342602.7,
+          "DEDUCT_PARENT_NETPROFIT": 5102078327.94,
+          "TOTAL_OPERATE_INCOME": 27301379656.81
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 3207978523.58,
+          "DEDUCT_PARENT_NETPROFIT": 3180943277.08,
+          "TOTAL_OPERATE_INCOME": 16141546184.74
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "002371",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 2373329762,
+          "RZYEZB": 0.55668075,
+          "RZJME5D": -105604670
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "北京七星华电科技集团有限责任公司",
+          "HOLD_RATIO": 33.146,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 13.0001,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "北京电子控股有限责任公司",
+          "HOLD_RATIO": 7.2971,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "国家集成电路产业投资基金股份有限公司",
+          "HOLD_RATIO": 4.1001,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "国新投资有限公司",
+          "HOLD_RATIO": 3.1451,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "广发证券股份有限公司-国泰中证半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.9176,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "华芯投资管理有限责任公司-国家集成电路产业投资基金二期股份有限公司",
+          "HOLD_RATIO": 0.8181,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "北京硅元科电微电子技术有限责任公司",
+          "HOLD_RATIO": 0.516,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "中国农业银行股份有限公司-东方人工智能主题混合型证券投资基金",
+          "HOLD_RATIO": 0.4883,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NAME": "中国建设银行股份有限公司-华夏国证半导体芯片交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.4415,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "002371",
+          "HOLDER_NUM": 84231,
+          "HOLDER_NUM_RATIO": -3.887583011935,
+          "END_DATE": "2026-09-18 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-09-24 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "688120",
+      "financial": [
+        {
+          "SECURITY_CODE": "688120",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-22 00:00:00",
+          "PARENT_NETPROFIT": 563222966.61,
+          "DEDUCT_PARENT_NETPROFIT": 515837009.36,
+          "TOTAL_OPERATE_INCOME": 2643200448.43
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-23 00:00:00",
+          "PARENT_NETPROFIT": 247304870.48,
+          "DEDUCT_PARENT_NETPROFIT": 224836448.06,
+          "TOTAL_OPERATE_INCOME": 1201416794.91
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-23 00:00:00",
+          "PARENT_NETPROFIT": 1083724706.34,
+          "DEDUCT_PARENT_NETPROFIT": 964817514.21,
+          "TOTAL_OPERATE_INCOME": 4648227726.05
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-31 00:00:00",
+          "PARENT_NETPROFIT": 791422825.58,
+          "DEDUCT_PARENT_NETPROFIT": 722952687.97,
+          "TOTAL_OPERATE_INCOME": 3193795521.45
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-22 00:00:00",
+          "PARENT_NETPROFIT": 505426126.87,
+          "DEDUCT_PARENT_NETPROFIT": 460402417.05,
+          "TOTAL_OPERATE_INCOME": 1949592075.74
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "688120",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 1266918264,
+          "RZYEZB": 1.11476951,
+          "RZJME5D": -35337529
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "清控创业投资有限公司",
+          "HOLD_RATIO": 28.1456,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "路新春",
+          "HOLD_RATIO": 4.9221,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 3.846,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "天津科海投资发展有限公司",
+          "HOLD_RATIO": 3.1583,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "清津厚德(济南)科技合伙企业(有限合伙)",
+          "HOLD_RATIO": 2.0788,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "中国农业银行股份有限公司-东方人工智能主题混合型证券投资基金",
+          "HOLD_RATIO": 2.0004,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "雒建斌",
+          "HOLD_RATIO": 1.9119,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "中国建设银行股份有限公司-银华集成电路混合型证券投资基金",
+          "HOLD_RATIO": 1.7106,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "长江证券股份有限公司-华夏上证科创板半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.6152,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NAME": "广发证券股份有限公司-国泰中证半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.5214,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "688120",
+          "HOLDER_NUM": 32232,
+          "HOLDER_NUM_RATIO": 111.149688830658,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-22 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "300054",
+      "financial": [
+        {
+          "SECURITY_CODE": "300054",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 529436710.39,
+          "DEDUCT_PARENT_NETPROFIT": 484683042.71,
+          "TOTAL_OPERATE_INCOME": 1924595428.4
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-28 00:00:00",
+          "PARENT_NETPROFIT": 250955125.19,
+          "DEDUCT_PARENT_NETPROFIT": 236358708.37,
+          "TOTAL_OPERATE_INCOME": 1020104503.18
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-03-27 00:00:00",
+          "PARENT_NETPROFIT": 720204539.6,
+          "DEDUCT_PARENT_NETPROFIT": 677544470.6,
+          "TOTAL_OPERATE_INCOME": 3659907017.15
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-28 00:00:00",
+          "PARENT_NETPROFIT": 519417688.88,
+          "DEDUCT_PARENT_NETPROFIT": 494541738.82,
+          "TOTAL_OPERATE_INCOME": 2698067131.91
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 311042363.19,
+          "DEDUCT_PARENT_NETPROFIT": 293751951.04,
+          "TOTAL_OPERATE_INCOME": 1731520814.31
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "300054",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 2072442756,
+          "RZYEZB": 4.45729817,
+          "RZJME5D": 271265
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 5.5702,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "朱双全",
+          "HOLD_RATIO": 3.6519,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "朱顺全",
+          "HOLD_RATIO": 3.62,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "上海理成资产管理有限公司-理成圣远6号私募证券投资基金",
+          "HOLD_RATIO": 1.0085,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "上海理成资产管理有限公司-理成圣远1号A期私募投资基金",
+          "HOLD_RATIO": 0.9259,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "中国太平洋人寿保险股份有限公司-传统-普通保险产品",
+          "HOLD_RATIO": 0.7902,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "中国工商银行股份有限公司-汇添富科技创新灵活配置混合型证券投资基金",
+          "HOLD_RATIO": 0.762,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "中国太平洋人寿保险股份有限公司-分红-个人分红",
+          "HOLD_RATIO": 0.7218,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "中国人寿保险股份有限公司-传统-普通保险产品-005L-CT001沪",
+          "HOLD_RATIO": 0.7198,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NAME": "基本养老保险基金二一零六组合",
+          "HOLD_RATIO": 0.6545,
+          "HOLDER_TYPE": "基本养老基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "300054",
+          "HOLDER_NUM": 123000,
+          "HOLDER_NUM_RATIO": -13.74534540431,
+          "END_DATE": "2026-07-31 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-09-09 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "688019",
+      "financial": [
+        {
+          "SECURITY_CODE": "688019",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-27 00:00:00",
+          "PARENT_NETPROFIT": 531763849.95,
+          "DEDUCT_PARENT_NETPROFIT": 425764261.57,
+          "TOTAL_OPERATE_INCOME": 1526359564.44
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-29 00:00:00",
+          "PARENT_NETPROFIT": 207668028.8,
+          "DEDUCT_PARENT_NETPROFIT": 196733887.72,
+          "TOTAL_OPERATE_INCOME": 723928401.13
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-16 00:00:00",
+          "PARENT_NETPROFIT": 783648337.86,
+          "DEDUCT_PARENT_NETPROFIT": 696553465.49,
+          "TOTAL_OPERATE_INCOME": 2504217940.48
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-29 00:00:00",
+          "PARENT_NETPROFIT": 608321608.16,
+          "DEDUCT_PARENT_NETPROFIT": 537491545.72,
+          "TOTAL_OPERATE_INCOME": 1812125628.78
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-27 00:00:00",
+          "PARENT_NETPROFIT": 375634437.13,
+          "DEDUCT_PARENT_NETPROFIT": 356742258.28,
+          "TOTAL_OPERATE_INCOME": 1141453109.75
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "688019",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 1252521529,
+          "RZYEZB": 2.76180172,
+          "RZJME5D": -63115355
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "Anji Microelectronics Co.Ltd.",
+          "HOLD_RATIO": 29.5748,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 15.1883,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "全国社保基金一一零组合",
+          "HOLD_RATIO": 1.8533,
+          "HOLDER_TYPE": "全国社保基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "长江证券股份有限公司-华夏上证科创板半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.6325,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "广发证券股份有限公司-国泰中证半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.5151,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "中信证券股份有限公司-嘉实上证科创板芯片交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.2072,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "上海大辰科技投资有限公司",
+          "HOLD_RATIO": 1.1561,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "瑞众人寿保险有限责任公司-自有资金",
+          "HOLD_RATIO": 0.7382,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "中国银行股份有限公司-易方达中证半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.5857,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NAME": "全国社保基金一零七组合",
+          "HOLD_RATIO": 0.573,
+          "HOLDER_TYPE": "全国社保基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "688019",
+          "HOLDER_NUM": 36652,
+          "HOLDER_NUM_RATIO": 155.753262158956,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-27 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "002409",
+      "financial": [
+        {
+          "SECURITY_CODE": "002409",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 560905882.4,
+          "DEDUCT_PARENT_NETPROFIT": 529903821.93,
+          "TOTAL_OPERATE_INCOME": 4512986271.44
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-28 00:00:00",
+          "PARENT_NETPROFIT": 266687960.67,
+          "DEDUCT_PARENT_NETPROFIT": 244385624.22,
+          "TOTAL_OPERATE_INCOME": 1972760765.04
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-28 00:00:00",
+          "PARENT_NETPROFIT": 1000316537.26,
+          "DEDUCT_PARENT_NETPROFIT": 953924478.22,
+          "TOTAL_OPERATE_INCOME": 8611469139.8
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-31 00:00:00",
+          "PARENT_NETPROFIT": 796127101.99,
+          "DEDUCT_PARENT_NETPROFIT": 797077470.67,
+          "TOTAL_OPERATE_INCOME": 6466693997.58
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-26 00:00:00",
+          "PARENT_NETPROFIT": 522787762.09,
+          "DEDUCT_PARENT_NETPROFIT": 526328633.18,
+          "TOTAL_OPERATE_INCOME": 4292999950.68
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "002409",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 2698008316,
+          "RZYEZB": 7.82049559,
+          "RZJME5D": -19023033
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "沈琦",
+          "HOLD_RATIO": 5.5009,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "沈馥",
+          "HOLD_RATIO": 5.0444,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "广发证券股份有限公司-国泰中证半导体材料设备主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 1.1135,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 0.8622,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "中国人寿保险股份有限公司-传统-普通保险产品-005L-CT001沪",
+          "HOLD_RATIO": 0.8379,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "王卫列",
+          "HOLD_RATIO": 0.6282,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "国家集成电路产业投资基金股份有限公司",
+          "HOLD_RATIO": 0.6092,
+          "HOLDER_TYPE": "投资公司",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "中国人寿保险股份有限公司-分红-个人分红-005L-FH002沪",
+          "HOLD_RATIO": 0.5704,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "骆颖",
+          "HOLD_RATIO": 0.4791,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NAME": "沈锡强",
+          "HOLD_RATIO": 0.4791,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "002409",
+          "HOLDER_NUM": 148546,
+          "HOLDER_NUM_RATIO": -2.256292153315,
+          "END_DATE": "2026-09-10 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-09-24 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "000977",
+      "financial": [
+        {
+          "SECURITY_CODE": "000977",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-29 00:00:00",
+          "PARENT_NETPROFIT": 2951716875.15,
+          "DEDUCT_PARENT_NETPROFIT": 2418799683.96,
+          "TOTAL_OPERATE_INCOME": 84378727168.32
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-30 00:00:00",
+          "PARENT_NETPROFIT": 604873166.81,
+          "DEDUCT_PARENT_NETPROFIT": 590262897.06,
+          "TOTAL_OPERATE_INCOME": 35470325836.04
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-11 00:00:00",
+          "PARENT_NETPROFIT": 2412866308.76,
+          "DEDUCT_PARENT_NETPROFIT": 2080930808.76,
+          "TOTAL_OPERATE_INCOME": 164781997658.23
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-31 00:00:00",
+          "PARENT_NETPROFIT": 1482046758.25,
+          "DEDUCT_PARENT_NETPROFIT": 1334117090.36,
+          "TOTAL_OPERATE_INCOME": 120669018861.99
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-29 00:00:00",
+          "PARENT_NETPROFIT": 798644865.25,
+          "DEDUCT_PARENT_NETPROFIT": 671739100,
+          "TOTAL_OPERATE_INCOME": 80192433185.82
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "000977",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 4328854713,
+          "RZYEZB": 4.75582733,
+          "RZJME5D": -75837397
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "浪潮集团有限公司",
+          "HOLD_RATIO": 32.1206,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 2.4829,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "招商银行股份有限公司-兴业收益增强债券型证券投资基金",
+          "HOLD_RATIO": 0.5696,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "永安财产保险股份有限公司-传统保险产品",
+          "HOLD_RATIO": 0.5322,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "中国建设银行股份有限公司-华商信用增强债券型证券投资基金",
+          "HOLD_RATIO": 0.502,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "中国人寿保险股份有限公司-传统-普通保险产品-005L-CT001沪",
+          "HOLD_RATIO": 0.4722,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "瑞众人寿保险有限责任公司-自有资金",
+          "HOLD_RATIO": 0.4676,
+          "HOLDER_TYPE": "保险产品",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "中国工商银行股份有限公司-易方达中证人工智能主题交易型开放式指数证券投资基金",
+          "HOLD_RATIO": 0.44,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "中国工商银行股份有限公司-华商创新成长灵活配置混合型发起式证券投资基金",
+          "HOLD_RATIO": 0.415,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NAME": "中国建设银行股份有限公司-华商利欣回报债券型证券投资基金",
+          "HOLD_RATIO": 0.3953,
+          "HOLDER_TYPE": "证券投资基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "000977",
+          "HOLDER_NUM": 330000,
+          "HOLDER_NUM_RATIO": 26.923076923077,
+          "END_DATE": "2026-09-28 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-09-30 00:00:00"
+        }
+      ]
+    },
+    {
+      "code": "002897",
+      "financial": [
+        {
+          "SECURITY_CODE": "002897",
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-25 00:00:00",
+          "PARENT_NETPROFIT": 100364975.19,
+          "DEDUCT_PARENT_NETPROFIT": 93412781.7,
+          "TOTAL_OPERATE_INCOME": 2863320150.75
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "NOTICE_DATE": "2026-04-29 00:00:00",
+          "PARENT_NETPROFIT": 40269539.16,
+          "DEDUCT_PARENT_NETPROFIT": 37815240.01,
+          "TOTAL_OPERATE_INCOME": 1292496454.28
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "REPORT_DATE": "2025-12-31 00:00:00",
+          "NOTICE_DATE": "2026-04-29 00:00:00",
+          "PARENT_NETPROFIT": 318295031.33,
+          "DEDUCT_PARENT_NETPROFIT": 285381250.02,
+          "TOTAL_OPERATE_INCOME": 6400557642.36
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "REPORT_DATE": "2025-09-30 00:00:00",
+          "NOTICE_DATE": "2025-10-30 00:00:00",
+          "PARENT_NETPROFIT": 269540793.21,
+          "DEDUCT_PARENT_NETPROFIT": 251776931.93,
+          "TOTAL_OPERATE_INCOME": 4961844790.25
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "REPORT_DATE": "2025-06-30 00:00:00",
+          "NOTICE_DATE": "2026-08-25 00:00:00",
+          "PARENT_NETPROFIT": 161540488.37,
+          "DEDUCT_PARENT_NETPROFIT": 151017500.07,
+          "TOTAL_OPERATE_INCOME": 3045193173.55
+        }
+      ],
+      "margin": [
+        {
+          "SCODE": "002897",
+          "DATE": "2026-10-12 00:00:00",
+          "RZYE": 640670558,
+          "RZYEZB": 6.70876495,
+          "RZJME5D": -111767977
+        }
+      ],
+      "holders": [
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "意华控股集团有限公司",
+          "HOLD_RATIO": 38.2752,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "香港中央结算有限公司",
+          "HOLD_RATIO": 3.1436,
+          "HOLDER_TYPE": "其它",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "北京禧悦私募基金管理有限公司-禧悦保诚1号私募证券投资基金",
+          "HOLD_RATIO": 0.9052,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "J.P.Morgan Securities PLC-自有资金",
+          "HOLD_RATIO": 0.5171,
+          "HOLDER_TYPE": "QFII",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "上海聚鸣投资管理有限公司-聚鸣景宏电子科技私募证券投资基金",
+          "HOLD_RATIO": 0.5047,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "方建斌",
+          "HOLD_RATIO": 0.4037,
+          "HOLDER_TYPE": "个人",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "上海聚鸣投资管理有限公司-聚鸣招享价值尊享私募证券投资基金",
+          "HOLD_RATIO": 0.402,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "高盛公司有限责任公司",
+          "HOLD_RATIO": 0.3803,
+          "HOLDER_TYPE": "QFII",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "UBS AG",
+          "HOLD_RATIO": 0.3537,
+          "HOLDER_TYPE": "QFII",
+          "END_DATE": "2026-06-30 00:00:00"
+        },
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NAME": "上海聚鸣投资管理有限公司-聚鸣匠传3号私募证券投资基金",
+          "HOLD_RATIO": 0.3536,
+          "HOLDER_TYPE": "私募基金",
+          "END_DATE": "2026-06-30 00:00:00"
+        }
+      ],
+      "households": [
+        {
+          "SECURITY_CODE": "002897",
+          "HOLDER_NUM": 44376,
+          "HOLDER_NUM_RATIO": -0.251753281784,
+          "END_DATE": "2026-06-30 00:00:00",
+          "HOLD_NOTICE_DATE": "2026-08-25 00:00:00"
+        }
+      ]
+    }
+  ]
+}
